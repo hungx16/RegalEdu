@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
+
+    <PackageReference Include="MailKit" Version="4.13.0" />
+
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
+    <PackageReference Include="RazorLight" Version="2.3.1" />
+    <PackageReference Include="SkiaSharp" Version="3.119.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegalEdu.Application\RegalEdu.Application.csproj" />
+    <ProjectReference Include="..\RegalEdu.Domain\RegalEdu.Domain.csproj" />
+    <ProjectReference Include="..\RegalEdu.Persistence\RegalEdu.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

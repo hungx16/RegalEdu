@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "RegalEdu API (Development)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "cwd": "${workspaceFolder}/RegalEdu.BackEnd",
+      "program": "${workspaceFolder}/RegalEdu.BackEnd/bin/Debug/net8.0/RegalEdu.BackEnd.dll",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Debug RegalEdu API (https)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/RegalEdu.BackEnd/bin/Debug/net8.0/RegalEdu.Api.dll",
+      "cwd": "${workspaceFolder}/RegalEdu.BackEnd",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[2026-03-08 21:37:56 INF] Background worker service is starting.
+[2026-03-08 21:37:58 INF] JobCompleteStart
+[2026-03-08 21:37:58 INF] JobStart
+[2026-03-08 21:37:58 INF] JobLockStart
+[2026-03-08 21:37:58 INF] JobCompleteDone
+[2026-03-08 21:37:58 INF] JobLockDone
+[2026-03-08 21:37:58 INF] JobTriggerUsableStart
+[2026-03-08 21:37:58 INF] JobUsableStart
+[2026-03-08 21:37:59 INF] JobDone
+[2026-03-08 21:37:59 INF] JobUsableNoData
+[2026-03-08 21:37:59 INF] JobTriggerUsableDone
+[2026-03-08 21:46:41 INF] Request: GetAllActiveLuckyDrawsQuery (341 ms) {"$type":"GetAllActiveLuckyDrawsQuery"} | User: - | IP: 127.0.0.1 | Path: /api/RegalEduManagement/LuckyDraw/GetAllActiveLuckyDraws
+[2026-03-08 21:47:07 INF] Request: GetLuckyDrawByIdQuery (58 ms) {"Id":"11111111-1111-1111-1111-111111111111","$type":"GetLuckyDrawByIdQuery"} | User: - | IP: 127.0.0.1 | Path: /api/RegalEduManagement/LuckyDraw/GetLuckyDrawById/11111111-1111-1111-1111-111111111111

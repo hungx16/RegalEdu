@@ -1,0 +1,1458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PasswordCannotBeEmpty" xml:space="preserve">
+    <value>Mật khẩu không được để trống</value>
+  </data>
+  <data name="EmployeeATIDAlreadyExists" xml:space="preserve">
+    <value>Mã nhân viên '{0}' đã tồn tại</value>
+  </data>
+  <data name="EmailAlreadyExists" xml:space="preserve">
+    <value>Email đã tồn tại trong hệ thống: {0}.</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Lỗi không mong muốn</value>
+  </data>
+  <data name="UserNameAlreadyExists" xml:space="preserve">
+    <value>Tên người dùng '{0}' đã tồn tại.</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Người dùng '{0}' không tồn tại.</value>
+  </data>
+  <data name="PasswordResetFailed" xml:space="preserve">
+    <value>Không thể đặt lại mật khẩu.</value>
+  </data>
+  <data name="PasswordResetEmailSubject" xml:space="preserve">
+    <value>Mật khẩu mới của bạn - RegalEdu</value>
+  </data>
+  <data name="PasswordResetLinkEmailSubject" xml:space="preserve">
+    <value>Yêu cầu đặt lại mật khẩu - RegalEdu</value>
+  </data>
+  <data name="PasswordResetErrorTitle" xml:space="preserve">
+    <value>Lỗi đặt lại mật khẩu</value>
+  </data>
+  <data name="PasswordResetError" xml:space="preserve">
+    <value>Đã xảy ra lỗi khi đặt lại mật khẩu!
+</value>
+  </data>
+  <data name="PasswordResetError_TryAgain " xml:space="preserve">
+    <value>Vui lòng thử lại sau.</value>
+  </data>
+  <data name="PasswordResetError_ContactSupport" xml:space="preserve">
+    <value>Nếu sự cố tiếp diễn, vui lòng liên hệ bộ phận hỗ trợ.</value>
+  </data>
+  <data name="PasswordResetSuccess" xml:space="preserve">
+    <value>Mật khẩu đã được đặt lại thành công!</value>
+  </data>
+  <data name="PasswordResetSuccessTitle" xml:space="preserve">
+    <value>Đặt lại mật khẩu thành công</value>
+  </data>
+  <data name="PasswordResetSuccess_EmailNotice" xml:space="preserve">
+    <value>Một email chứa mật khẩu mới đã được gửi đến địa chỉ email của bạn.</value>
+  </data>
+  <data name="PasswordResetSuccess_CloseWindow" xml:space="preserve">
+    <value>Bạn có thể đóng cửa sồ này.</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>xoá</value>
+  </data>
+  <data name="ModelNotFound" xml:space="preserve">
+    <value>Không tồn tại '{0}'</value>
+  </data>
+  <data name="ActionFailed" xml:space="preserve">
+    <value>Thất bại {0} {1}</value>
+  </data>
+  <data name="ActionException" xml:space="preserve">
+    <value>Thất bại {0} {1}: {2}</value>
+  </data>
+  <data name="NoModelToAction" xml:space="preserve">
+    <value>Không có {0} nào để {1}</value>
+  </data>
+  <data name="AccountGroupNameExists" xml:space="preserve">
+    <value>Tên nhóm tài khoản đã tồn tại.</value>
+  </data>
+  <data name="AccountGroupNotExist" xml:space="preserve">
+    <value>Nhóm tài khoản không tồn tại.</value>
+  </data>
+  <data name="OnlyOneDefaultGroup" xml:space="preserve">
+    <value>Chỉ cho phép một nhóm mặc định.</value>
+  </data>
+  <data name="UpdateAccountGroupFailed" xml:space="preserve">
+    <value>Cập nhật nhóm tài khoản thất bại.</value>
+  </data>
+  <data name="UnableToCastDbSet" xml:space="preserve">
+    <value>Không thể ép kiểu DbSet cho loại {0}.</value>
+    <comment>{0} = Tên kiểu entity</comment>
+  </data>
+  <data name="EntityWithIdNotFound" xml:space="preserve">
+    <value>Không tìm thấy {0} có ID {1}.</value>
+  </data>
+  <data name="MSG_CREATE_SUCCESS" xml:space="preserve">
+    <value>Tạo mới {0} thành công!</value>
+  </data>
+  <data name="ERR_TOO_MANY_RETRY" xml:space="preserve">
+    <value>Hệ thống bận, xin vui lòng thử lại sau.</value>
+  </data>
+  <data name="ERR_UNKNOWN" xml:space="preserve">
+    <value>Có lỗi xảy ra, vui lòng liên hệ quản trị.</value>
+  </data>
+  <data name="ModelNameAlreadyExists" xml:space="preserve">
+    <value>{0} với tên "{1}" đã tồn tại.</value>
+  </data>
+  <data name="ModelCodeAlreadyExists" xml:space="preserve">
+    <value>{0} với mã "{1}" đã tồn tại.</value>
+  </data>
+  <data name="ERR_DUPLICATE_VALUE" xml:space="preserve">
+    <value>{0} với giá trị '{1}' đã tồn tại.</value>
+  </data>
+  <data name="ERR_SAVE_NO_EFFECT" xml:space="preserve">
+    <value>Không lưu được {0}, vui lòng thử lại hoặc liên hệ quản trị.</value>
+  </data>
+  <data name="Division" xml:space="preserve">
+    <value>Khối tổ chức</value>
+  </data>
+  <data name="MSG_UPDATE_SUCCESS" xml:space="preserve">
+    <value>Cập nhật {0} thành công!</value>
+  </data>
+  <data name="MSG_DELETE_SUCCESS" xml:space="preserve">
+    <value>Xoá {0} thành công!</value>
+  </data>
+  <data name="MSG_RESTORE_SUCCESS" xml:space="preserve">
+    <value>Khôi phục {0} thành công!</value>
+  </data>
+  <data name="NoModelToDelete" xml:space="preserve">
+    <value>Không có {0} nào để xoá</value>
+  </data>
+  <data name="NoModelToRestore" xml:space="preserve">
+    <value>Không có {0} nào để khôi phục</value>
+  </data>
+  <data name="DivisionCodeRequired" xml:space="preserve">
+    <value>Mã khối không được để trống.</value>
+  </data>
+  <data name="DivisionCodeMaxLength" xml:space="preserve">
+    <value>Mã khối không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="DivisionNameRequired" xml:space="preserve">
+    <value>Tên khối không được để trống.</value>
+  </data>
+  <data name="DivisionNameMaxLength" xml:space="preserve">
+    <value>Tên khối không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="DivisionDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="DivisionCodeInvalidFormat" xml:space="preserve">
+    <value>Mã khối phải bắt đầu bằng '{0}' và theo sau là chính xác {1} chữ số.</value>
+  </data>
+  <data name="DepartmentCodeRequired" xml:space="preserve">
+    <value>Mã phòng ban không được để trống.</value>
+  </data>
+  <data name="DepartmentCodeMaxLength" xml:space="preserve">
+    <value>Mã phòng ban không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="DepartmentCodeInvalidFormat" xml:space="preserve">
+    <value>Mã phòng ban phải bắt đầu bằng '{0}' và theo sau là chính xác {1} chữ số.</value>
+  </data>
+  <data name="DepartmentNameRequired" xml:space="preserve">
+    <value>Tên phòng ban không được để trống.</value>
+  </data>
+  <data name="DepartmentNameMaxLength" xml:space="preserve">
+    <value>Tên phòng ban không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="DepartmentDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="DivisionIdRequired" xml:space="preserve">
+    <value>Bắt buộc chọn khối.</value>
+  </data>
+  <data name="MSG_RESTORE_RESULT" xml:space="preserve">
+    <value>Khôi phục {0}: {1} thành công, {2} thất bại.</value>
+  </data>
+  <data name="EntityNotDeleted" xml:space="preserve">
+    <value>{0} với Id {1} không ở trạng thái đã xoá mềm.</value>
+  </data>
+  <data name="MSG_DELETE_RESULT" xml:space="preserve">
+    <value>Xóa {0}: {1} thành công, {2} thất bại.</value>
+  </data>
+  <data name="EntityDeleteFailed" xml:space="preserve">
+    <value>Xóa {0} với tên {1} thất bại: {2}</value>
+  </data>
+  <data name="AdmissionsQuotaMustBeDraftToDelete" xml:space="preserve">
+    <value>Không thể xoá phân bổ chỉ tiêu có trạng thái khác trạng thái nháp. ID: {0}.</value>
+  </data>
+  <data name="PositionCodeRequired" xml:space="preserve">
+    <value>Mã chức vụ là bắt buộc.</value>
+  </data>
+  <data name="PositionCodeMaxLength" xml:space="preserve">
+    <value>Mã chức vụ không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="PositionNameRequired" xml:space="preserve">
+    <value>Tên chức vụ là bắt buộc.</value>
+  </data>
+  <data name="PositionNameMaxLength" xml:space="preserve">
+    <value>Tên chức vụ không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="PositionDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="MustHasAtLeastOneDepartment" xml:space="preserve">
+    <value>Vị trí phải thuộc ít nhất một phòng ban.</value>
+  </data>
+  <data name="InvalidCategoryType" xml:space="preserve">
+    <value>{0} không thuộc {1}.</value>
+  </data>
+  <data name="AgeGrIdNotFound" xml:space="preserve">
+    <value>AgeGroup không tồn tại.</value>
+  </data>
+  <data name="MustHasAtLeastOneCompany" xml:space="preserve">
+    <value>Áp dụng với chi nhánh thì phải chọn ít nhất một chi nhánh</value>
+  </data>
+  <data name="ApplicationUserIdRequired" xml:space="preserve">
+    <value>Người dùng là bắt buộc.</value>
+  </data>
+  <data name="PositionIdRequired" xml:space="preserve">
+    <value>Chức vụ là bắt buộc.</value>
+  </data>
+  <data name="DepartmentIdRequired" xml:space="preserve">
+    <value>Phòng ban là bắt buộc.</value>
+  </data>
+  <data name="EmployeeTaxMaxLength" xml:space="preserve">
+    <value>Mã số thuế không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>Email là bắt buộc.</value>
+  </data>
+  <data name="PhoneNumberRequired" xml:space="preserve">
+    <value>Số điện thoại là bắt buộc.</value>
+  </data>
+  <data name="PhoneNumberAlreadyExists" xml:space="preserve">
+    <value>Số điện thoại đã tồn tại trong hệ thống: {0}.</value>
+  </data>
+  <data name="EmployeeUserAlreadyExists" xml:space="preserve">
+    <value>Tài khoản người dùng đã tồn tại trong hệ thống: {0}.</value>
+  </data>
+  <data name="EmployeeTaxAlreadyExists" xml:space="preserve">
+    <value>Mã số thuế đã tồn tại trong hệ thống: {0}.</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="RegionCodeRequired" xml:space="preserve">
+    <value>Mã vùng là bắt buộc.</value>
+  </data>
+  <data name="RegionCodeMaxLength" xml:space="preserve">
+    <value>Mã vùng không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="RegionNameRequired" xml:space="preserve">
+    <value>Tên vùng là bắt buộc.</value>
+  </data>
+  <data name="RegionNameMaxLength" xml:space="preserve">
+    <value>Tên vùng không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="RegionDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="RegionCodeInvalidFormat" xml:space="preserve">
+    <value>Mã vùng phải bắt đầu bằng '{0}' và có {1} chữ số phía sau tiền tố.</value>
+  </data>
+  <data name="EmployeeCodeRequired" xml:space="preserve">
+    <value>Mã nhân viên là bắt buộc.</value>
+  </data>
+  <data name="EmployeeCodeMaxLength" xml:space="preserve">
+    <value>Mã nhân viên không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="EmployeeCodeInvalidFormat" xml:space="preserve">
+    <value>Mã nhân viên phải bắt đầu bằng '{0}' và có {1} chữ số phía sau tiền tố.</value>
+  </data>
+  <data name="CompanyCodeRequired" xml:space="preserve">
+    <value>Mã công ty là bắt buộc.</value>
+  </data>
+  <data name="CompanyCodeMaxLength" xml:space="preserve">
+    <value>Mã công ty không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CompanyCodeInvalidFormat" xml:space="preserve">
+    <value>Mã công ty phải bắt đầu bằng '{0}' và có {1} chữ số phía sau tiền tố.</value>
+  </data>
+  <data name="CompanyNameRequired" xml:space="preserve">
+    <value>Tên công ty là bắt buộc.</value>
+  </data>
+  <data name="CompanyNameMaxLength" xml:space="preserve">
+    <value>Tên công ty không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CompanyAddressMaxLength" xml:space="preserve">
+    <value>Địa chỉ không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CompanyPhoneMaxLength" xml:space="preserve">
+    <value>Số điện thoại không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ProvinceCodeRequired" xml:space="preserve">
+    <value>Mã tỉnh/thành là bắt buộc.</value>
+  </data>
+  <data name="ProvinceCodeMaxLength" xml:space="preserve">
+    <value>Mã tỉnh/thành không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ProvinceCodeInvalid" xml:space="preserve">
+    <value>Mã tỉnh/thành {0} không hợp lệ.</value>
+  </data>
+  <data name="NewRegionStartDateMustBeGreaterThanCurrent" xml:space="preserve">
+    <value>Khi chuyển vùng thì ngày bắt đầu tại vùng mới phải lớn hơn ngày bắt đầu tại vùng hiện tại.</value>
+  </data>
+  <data name="CurrentAndNewRegionMustBeDifferent" xml:space="preserve">
+    <value>Vùng hiện tại và vùng chuyển phải khác nhau.</value>
+  </data>
+  <data name="CreateNewEmployee" xml:space="preserve">
+    <value>Tạo nhân viên mới</value>
+  </data>
+  <data name="CreateNewTeacher" xml:space="preserve">
+    <value>Tạo giáo viên mới</value>
+  </data>
+  <data name="ERR_SEND_EMAIL" xml:space="preserve">
+    <value>Lỗi khi gửi thư điện tử</value>
+  </data>
+  <data name="WorkingTimeNameRequired" xml:space="preserve">
+    <value>Tên ca làm việc là bắt buộc.</value>
+  </data>
+  <data name="WorkingTimeNameMaxLength" xml:space="preserve">
+    <value>Tên ca làm việc không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="WorkingTimeStartTimeRequired" xml:space="preserve">
+    <value>Giờ bắt đầu là bắt buộc.</value>
+  </data>
+  <data name="WorkingTimeEndTimeRequired" xml:space="preserve">
+    <value>Giờ kết thúc là bắt buộc.</value>
+  </data>
+  <data name="WorkingTimeDayOfWeekInvalid" xml:space="preserve">
+    <value>Thứ trong tuần phải từ 0 (Chủ nhật) đến 6 (Thứ 7).</value>
+  </data>
+  <data name="WorkingTimeStartTimeMustBeLessThanEndTime" xml:space="preserve">
+    <value>Giờ bắt đầu phải nhỏ hơn giờ kết thúc.</value>
+  </data>
+  <data name="DayOfWeek_0" xml:space="preserve">
+    <value>Chủ nhật</value>
+  </data>
+  <data name="DayOfWeek_1" xml:space="preserve">
+    <value>Thứ 2</value>
+  </data>
+  <data name="DayOfWeek_2" xml:space="preserve">
+    <value>Thứ 3</value>
+  </data>
+  <data name="DayOfWeek_3" xml:space="preserve">
+    <value>Thứ 4</value>
+  </data>
+  <data name="DayOfWeek_4" xml:space="preserve">
+    <value>Thứ 5</value>
+  </data>
+  <data name="DayOfWeek_5" xml:space="preserve">
+    <value>Thứ 6</value>
+  </data>
+  <data name="DayOfWeek_6" xml:space="preserve">
+    <value>Thứ 7</value>
+  </data>
+  <data name="ModelNameAlreadyExistsWithDay" xml:space="preserve">
+    <value>{0} với tên '{1}' đã tồn tại cho {2}.</value>
+  </data>
+  <data name="HolidayNameRequired" xml:space="preserve">
+    <value>Tên ngày nghỉ lễ là bắt buộc.</value>
+  </data>
+  <data name="HolidayNameMaxLength" xml:space="preserve">
+    <value>Tên ngày nghỉ lễ không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="HolidayDateRequired" xml:space="preserve">
+    <value>Ngày là bắt buộc.</value>
+  </data>
+  <data name="HolidayDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="HolidayFrequencyInvalid" xml:space="preserve">
+    <value>Kiểu lặp lại phải là 0 (lặp hàng năm) hoặc 1 (không lặp lại).</value>
+  </data>
+  <data name="HolidayAlreadyExists" xml:space="preserve">
+    <value>Ngày nghỉ lễ '{0}' vào ngày {1} đã tồn tại.</value>
+  </data>
+  <data name="WTCNameRequired" xml:space="preserve">
+    <value>Tên cấu hình ca làm việc là bắt buộc.</value>
+  </data>
+  <data name="WTCNameMaxLength" xml:space="preserve">
+    <value>Tên cấu hình không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="WTCDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="WTCNameAlreadyExists" xml:space="preserve">
+    <value>Tên cấu hình '{0}' đã tồn tại.</value>
+  </data>
+  <data name="HolidayTypeCodeRequired" xml:space="preserve">
+    <value>Mã loại ngày nghỉ lễ không được để trống.</value>
+  </data>
+  <data name="HolidayTypeCodeMaxLength" xml:space="preserve">
+    <value>Mã loại ngày nghỉ lễ không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="HolidayTypeCodeInvalidFormat" xml:space="preserve">
+    <value>Mã loại ngày nghỉ lễ phải bắt đầu bằng '{0}' và có đúng {1} chữ số phía sau.</value>
+  </data>
+  <data name="HolidayTypeNameRequired" xml:space="preserve">
+    <value>Tên loại ngày nghỉ lễ không được để trống.</value>
+  </data>
+  <data name="HolidayTypeNameMaxLength" xml:space="preserve">
+    <value>Tên loại ngày nghỉ lễ không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="HolidayTypeDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ClassTypeCodeRequired" xml:space="preserve">
+    <value>Mã loại lớp là bắt buộc.</value>
+  </data>
+  <data name="ClassTypeCodeMaxLength" xml:space="preserve">
+    <value>Mã loại lớp không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ClassTypeCodeAlreadyExists" xml:space="preserve">
+    <value>Mã loại lớp '{0}' đã tồn tại.</value>
+  </data>
+  <data name="ClassTypeNameRequired" xml:space="preserve">
+    <value>Tên loại lớp là bắt buộc.</value>
+  </data>
+  <data name="ClassTypeNameMaxLength" xml:space="preserve">
+    <value>Tên loại lớp không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ClassTypeDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ClassTypeStudentCountMaxLength" xml:space="preserve">
+    <value>Sĩ số không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ClassTypeSessionsPerWeekGreaterThanZero" xml:space="preserve">
+    <value>Số buổi/tuần phải lớn hơn 0.</value>
+  </data>
+  <data name="ClassTypeHoursPerSessionGreaterThanZero" xml:space="preserve">
+    <value>Số giờ/buổi phải lớn hơn 0.</value>
+  </data>
+  <data name="ClassTypeClassCountNonNegative" xml:space="preserve">
+    <value>Số lớp phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="DegreeNameRequired" xml:space="preserve">
+    <value>Tên bằng cấp là bắt buộc.</value>
+  </data>
+  <data name="DegreeNameMaxLength" xml:space="preserve">
+    <value>Tên bằng cấp không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="DegreeNameAlreadyExists" xml:space="preserve">
+    <value>Bằng cấp '{0}' đã tồn tại.</value>
+  </data>
+  <data name="DegreeDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="LectureNameRequired" xml:space="preserve">
+    <value>Tên loại bài giảng là bắt buộc.</value>
+  </data>
+  <data name="LectureNameMaxLength" xml:space="preserve">
+    <value>Tên loại bài giảng không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="LectureNameAlreadyExists" xml:space="preserve">
+    <value>Loại bài giảng '{0}' đã tồn tại.</value>
+  </data>
+  <data name="LectureTypeDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="LectureTypeFileUrlMaxLength" xml:space="preserve">
+    <value>Đường dẫn file không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ClassType" xml:space="preserve">
+    <value>Loại lớp học</value>
+  </data>
+  <data name="ERR_FILE_UPLOAD_FAILED" xml:space="preserve">
+    <value>Lỗi khi lưu tập tin {0}: {1}</value>
+  </data>
+  <data name="SupportingDocument" xml:space="preserve">
+    <value>Tài liệu bổ trợ</value>
+  </data>
+  <data name="SD_DocumentNameRequired" xml:space="preserve">
+    <value>Tên tài liệu là bắt buộc.</value>
+  </data>
+  <data name="SD_DocumentNameMaxLength" xml:space="preserve">
+    <value>Tên tài liệu không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="SD_DescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="SD_DocumentTypeIdRequired" xml:space="preserve">
+    <value>Loại tài liệu là bắt buộc.</value>
+  </data>
+  <data name="SD_WebsiteKeysMaxLength" xml:space="preserve">
+    <value>Website keys không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="SD_FileUrlMaxLength" xml:space="preserve">
+    <value>Đường dẫn file không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="SD_OriginalFileNameMaxLength" xml:space="preserve">
+    <value>Tên file gốc không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="SD_AuthorNameMaxLength" xml:space="preserve">
+    <value>Tên tác giả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="SD_DateRangeInvalid" xml:space="preserve">
+    <value>Ngày phát hành phải nhỏ hơn hoặc bằng ngày kết thúc.</value>
+  </data>
+  <data name="SD_DocumentAlreadyExists" xml:space="preserve">
+    <value>Tài liệu '{0}' đã tồn tại cho loại này.</value>
+  </data>
+  <data name="MSG_DELETE_FAILED_HAS_CHILDREN" xml:space="preserve">
+    <value>Không thể xóa vì {0} này có chứa dữ liệu liên quan.</value>
+  </data>
+  <data name="AdmissionsQuota" xml:space="preserve">
+    <value>Chỉ tiêu tuyển sinh</value>
+  </data>
+  <data name="AQ_YearRange" xml:space="preserve">
+    <value>Năm phải trong khoảng 2000 đến 2100.</value>
+  </data>
+  <data name="AQ_MonthRange" xml:space="preserve">
+    <value>Tháng phải trong khoảng 1 đến 12.</value>
+  </data>
+  <data name="AQ_TotalQuotaNonNegative" xml:space="preserve">
+    <value>Tổng chỉ tiêu phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="AQ_TotalSalesAllocatedNonNegative" xml:space="preserve">
+    <value>Tổng headcount phân bổ phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="AQ_CurrentExecutorsNonNegative" xml:space="preserve">
+    <value>Số người thực hiện hiện tại phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="AQ_NoteMaxLength" xml:space="preserve">
+    <value>Ghi chú không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AQ_YearMonthExists" xml:space="preserve">
+    <value>Chỉ tiêu cho {0}-{1} đã tồn tại.</value>
+  </data>
+  <data name="AdmissionsQuotaCompany" xml:space="preserve">
+    <value>Chỉ tiêu chi nhánh</value>
+  </data>
+  <data name="AQC_AdmissionsQuotaIdRequired" xml:space="preserve">
+    <value>Bắt buộc chọn đợt chỉ tiêu (AdmissionsQuotaId).</value>
+  </data>
+  <data name="AQC_CompanyIdRequired" xml:space="preserve">
+    <value>Bắt buộc chọn chi nhánh (CompanyId).</value>
+  </data>
+  <data name="AQC_NumberOfSalesAllocatedNonNegative" xml:space="preserve">
+    <value>Số sale phân bổ phải ≥ 0.</value>
+  </data>
+  <data name="AQC_CurrentExecutorsNonNegative" xml:space="preserve">
+    <value>Số người thực hiện hiện tại phải ≥ 0.</value>
+  </data>
+  <data name="AQC_RevenueQuotaPerECNonNegative" xml:space="preserve">
+    <value>Chỉ tiêu doanh thu/EC phải ≥ 0.</value>
+  </data>
+  <data name="AQC_TotalQuotaNonNegative" xml:space="preserve">
+    <value>Tổng chỉ tiêu phải ≥ 0.</value>
+  </data>
+  <data name="AQC_AdmissionsQuotaRegionIdRequired" xml:space="preserve">
+    <value>Bắt buộc chọn vùng chỉ tiêu (AdmissionsQuotaRegionId).</value>
+  </data>
+  <data name="AQC_UniqueAqCompanyExists" xml:space="preserve">
+    <value>Chi nhánh đã có bản ghi chỉ tiêu trong đợt này.</value>
+  </data>
+  <data name="AdmissionsQuotaRegion" xml:space="preserve">
+    <value>Vùng chỉ tiêu</value>
+  </data>
+  <data name="AQR_AdmissionsQuotaIdRequired" xml:space="preserve">
+    <value>Bắt buộc chọn đợt chỉ tiêu (AdmissionsQuotaId).</value>
+  </data>
+  <data name="AQR_RegionIdRequired" xml:space="preserve">
+    <value>Bắt buộc chọn vùng (RegionId).</value>
+  </data>
+  <data name="AQR_CurrentExecutorsNonNegative" xml:space="preserve">
+    <value>Số người thực hiện hiện tại phải ≥ 0.</value>
+  </data>
+  <data name="AQR_TotalSalesAllocatedNonNegative" xml:space="preserve">
+    <value>Tổng sale phân bổ phải ≥ 0.</value>
+  </data>
+  <data name="AQR_TotalQuotaNonNegative" xml:space="preserve">
+    <value>Tổng chỉ tiêu của vùng phải ≥ 0.</value>
+  </data>
+  <data name="AQR_UniqueAqRegionExists" xml:space="preserve">
+    <value>Vùng đã có bản ghi chỉ tiêu trong đợt này.</value>
+  </data>
+  <data name="AdmissionsQuotaEmployee" xml:space="preserve">
+    <value>Chỉ tiêu theo Nhân viên</value>
+  </data>
+  <data name="AQE_AdmissionsQuotaIdRequired" xml:space="preserve">
+    <value>Bắt buộc chọn đợt chỉ tiêu (AdmissionsQuotaId).</value>
+  </data>
+  <data name="AQE_PositionIdRequired" xml:space="preserve">
+    <value>Bắt buộc chọn chức danh (PositionId).</value>
+  </data>
+  <data name="AQE_RevenueQuotaNonNegative" xml:space="preserve">
+    <value>Chỉ tiêu doanh thu phải ≥ 0.</value>
+  </data>
+  <data name="AQE_DateRangeInvalid" xml:space="preserve">
+    <value>Ngày vào làm phải nhỏ hơn hoặc bằng ngày kết thúc.</value>
+  </data>
+  <data name="AQE_UniqueQuotaEmployeeExists" xml:space="preserve">
+    <value>Nhân viên đã có chỉ tiêu cho cùng chức danh trong đợt này.</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Vùng</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Chi nhánh</value>
+  </data>
+  <data name="AgeGroup" xml:space="preserve">
+    <value>Nhóm tuổi</value>
+  </data>
+  <data name="LectureType" xml:space="preserve">
+    <value>Loại bài giảng</value>
+  </data>
+  <data name="Skill" xml:space="preserve">
+    <value>Kỹ năng</value>
+  </data>
+  <data name="WorkingTime" xml:space="preserve">
+    <value>Thời gian làm việc</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Tạo mới</value>
+  </data>
+  <data name="AdmissionsQuotaAdjustment" xml:space="preserve">
+    <value>Điều chỉnh chỉ tiêu</value>
+  </data>
+  <data name="EntityNotFound" xml:space="preserve">
+    <value>Không tìm thấy {0}.</value>
+  </data>
+  <data name="InvalidRequest" xml:space="preserve">
+    <value>Yêu cầu không hợp lệ.</value>
+  </data>
+  <data name="InvalidScope" xml:space="preserve">
+    <value>Phạm vi điều chỉnh không hợp lệ.</value>
+  </data>
+  <data name="RegionIsRequired" xml:space="preserve">
+    <value>Thiếu thông tin vùng.</value>
+  </data>
+  <data name="CompanyIsRequired" xml:space="preserve">
+    <value>Thiếu thông tin chi nhánh.</value>
+  </data>
+  <data name="TotalQuotaAfterRequired" xml:space="preserve">
+    <value>Vui lòng nhập chỉ tiêu sau điều chỉnh.</value>
+  </data>
+  <data name="AQ_Adjustment_OnlyInProgress" xml:space="preserve">
+    <value>Chỉ cho phép điều chỉnh khi trạng thái là Đang thực hiện.</value>
+  </data>
+  <data name="AdjustmentScope_Region" xml:space="preserve">
+    <value>Vùng</value>
+  </data>
+  <data name="AdjustmentScope_Company" xml:space="preserve">
+    <value>Chi nhánh</value>
+  </data>
+  <data name="EmployeeIsRequired" xml:space="preserve">
+    <value>Vui lòng chọn nhân sự.</value>
+  </data>
+  <data name="EmployeeAlreadyAssigned" xml:space="preserve">
+    <value>Nhân sự này đã được gán hỗ trợ cho chi nhánh trong tháng này.</value>
+  </data>
+  <data name="MSG_ASSIGN_SUPPORT_SUCCESS" xml:space="preserve">
+    <value>Gán nhân sự hỗ trợ thành công.</value>
+  </data>
+  <data name="SupportStaff" xml:space="preserve">
+    <value>Nhân sự hỗ trợ</value>
+  </data>
+  <data name="AQ_InvalidId" xml:space="preserve">
+    <value>ID chỉ tiêu không hợp lệ: {0}.</value>
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Bảng giá</value>
+  </data>
+  <data name="PriceListDetail" xml:space="preserve">
+    <value>Chi tiết bảng giá</value>
+  </data>
+  <data name="PL_CodeRequired" xml:space="preserve">
+    <value>Mã bảng giá là bắt buộc.</value>
+  </data>
+  <data name="PL_CodeMaxLength" xml:space="preserve">
+    <value>Mã bảng giá không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="PL_NameRequired" xml:space="preserve">
+    <value>Tên bảng giá là bắt buộc.</value>
+  </data>
+  <data name="PL_NameMaxLength" xml:space="preserve">
+    <value>Tên bảng giá không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="PL_DateRangeInvalid" xml:space="preserve">
+    <value>Ngày bắt đầu phải nhỏ hơn hoặc bằng ngày kết thúc.</value>
+  </data>
+  <data name="PL_CodeExists" xml:space="preserve">
+    <value>Mã bảng giá '{0}' đã tồn tại.</value>
+  </data>
+  <data name="PLD_PriceListIdRequired" xml:space="preserve">
+    <value>Bắt buộc chọn bảng giá.</value>
+  </data>
+  <data name="PLD_FeeNonNegative" xml:space="preserve">
+    <value>Học phí phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="PLD_MinQtyNonNegative" xml:space="preserve">
+    <value>Số lượng tối thiểu phải ≥ 0.</value>
+  </data>
+  <data name="PLD_QuantityNonNegative" xml:space="preserve">
+    <value>Số lượng phải ≥ 0.</value>
+  </data>
+  <data name="PLD_MonthQtyNonNegative" xml:space="preserve">
+    <value>Số tháng phải ≥ 0.</value>
+  </data>
+  <data name="PLD_DuplicateRule" xml:space="preserve">
+    <value>Đã tồn tại quy tắc giá tương tự trong bảng giá này.</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Hồ sơ</value>
+  </data>
+  <data name="Auth.UserNameRequired" xml:space="preserve">
+    <value>Tên người dùng không được để trống.</value>
+  </data>
+  <data name="Auth.OldPasswordRequired" xml:space="preserve">
+    <value>Mật khẩu cũ không được để trống.</value>
+  </data>
+  <data name="Auth.NewPasswordRequired" xml:space="preserve">
+    <value>Mật khẩu mới không được để trống.</value>
+  </data>
+  <data name="Auth.UserNotFound" xml:space="preserve">
+    <value>Người dùng {0} không tồn tại.</value>
+  </data>
+  <data name="Auth.ChangePasswordFailed" xml:space="preserve">
+    <value>Không thể đặt lại mật khẩu. Vui lòng thử lại.</value>
+  </data>
+  <data name="Auth.ChangePasswordSuccess" xml:space="preserve">
+    <value>Đổi mật khẩu thành công.</value>
+  </data>
+  <data name="Auth.ChangePasswordException" xml:space="preserve">
+    <value>Thất bại đặt lại mật khẩu: {0}</value>
+  </data>
+  <data name="Common.InnerException" xml:space="preserve">
+    <value>Lỗi bên trong: {0}</value>
+  </data>
+  <data name="Auth.ChangePasswordLog" xml:space="preserve">
+    <value>Đặt lại mật khẩu cho {0} bởi {1}</value>
+  </data>
+  <data name="InvalidOrderRange" xml:space="preserve">
+    <value>Giá trị thứ tự không thoả mãn</value>
+  </data>
+  <data name="LearningRoadMap" xml:space="preserve">
+    <value>Chương trình học</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Ấn phẩm</value>
+  </data>
+  <data name="ItemCodeRequired" xml:space="preserve">
+    <value>Mã ấn phẩm là bắt buộc.</value>
+  </data>
+  <data name="ItemNameRequired" xml:space="preserve">
+    <value>Tên ấn phẩm là bắt buộc.</value>
+  </data>
+  <data name="ItemPriceNonNegative" xml:space="preserve">
+    <value>Đơn giá phải ≥ 0.</value>
+  </data>
+  <data name="ItemQuantityNonNegative" xml:space="preserve">
+    <value>Số lượng phải ≥ 0.</value>
+  </data>
+  <data name="ItemCodeExists" xml:space="preserve">
+    <value>Mã ấn phẩm '{0}' đã tồn tại.</value>
+  </data>
+  <data name="ERR_FILE_MOVE_FAILED" xml:space="preserve">
+    <value>Lỗi khi chuyển tập tin</value>
+  </data>
+  <data name="PartnerType" xml:space="preserve">
+    <value>Loại đối tác</value>
+  </data>
+  <data name="PartnerTypeCodeRequired" xml:space="preserve">
+    <value>Mã loại đối tác là bắt buộc.</value>
+  </data>
+  <data name="PartnerTypeCodeMaxLength" xml:space="preserve">
+    <value>Mã loại đối tác không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="PartnerTypeNameRequired" xml:space="preserve">
+    <value>Tên loại đối tác là bắt buộc.</value>
+  </data>
+  <data name="PartnerTypeNameMaxLength" xml:space="preserve">
+    <value>Tên loại đối tác không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="PartnerTypeDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="PartnerTypeCodeAlreadyExists" xml:space="preserve">
+    <value>Mã loại đối tác '{0}' đã tồn tại.</value>
+  </data>
+  <data name="PartnerTypeNameAlreadyExists" xml:space="preserve">
+    <value>Tên loại đối tác '{0}' đã tồn tại.</value>
+  </data>
+  <data name="AffiliatePartner" xml:space="preserve">
+    <value>Đối tác liên kết</value>
+  </data>
+  <data name="AP_PartnerTypeIdRequired" xml:space="preserve">
+    <value>Loại đối tác là bắt buộc.</value>
+  </data>
+  <data name="AP_PartnerCodeRequired" xml:space="preserve">
+    <value>Mã đối tác là bắt buộc.</value>
+  </data>
+  <data name="AP_PartnerCodeMaxLength" xml:space="preserve">
+    <value>Mã đối tác không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AP_PartnerNameRequired" xml:space="preserve">
+    <value>Tên đối tác là bắt buộc.</value>
+  </data>
+  <data name="AP_PartnerNameMaxLength" xml:space="preserve">
+    <value>Tên đối tác không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AP_AgencyLocationMaxLength" xml:space="preserve">
+    <value>Phạm vi/địa điểm không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AP_ProvinceRequired" xml:space="preserve">
+    <value>Tỉnh/Thành phố là bắt buộc.</value>
+  </data>
+  <data name="AP_ProvinceMaxLength" xml:space="preserve">
+    <value>Tỉnh/Thành phố không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AP_AddressMaxLength" xml:space="preserve">
+    <value>Địa chỉ không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AP_ContactPersonRequired" xml:space="preserve">
+    <value>Người liên hệ là bắt buộc.</value>
+  </data>
+  <data name="AP_ContactPersonMaxLength" xml:space="preserve">
+    <value>Người liên hệ không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AP_PhoneRequired" xml:space="preserve">
+    <value>Số điện thoại là bắt buộc.</value>
+  </data>
+  <data name="AP_PhoneMaxLength" xml:space="preserve">
+    <value>Số điện thoại không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AP_PhoneInvalid" xml:space="preserve">
+    <value>Số điện thoại không hợp lệ. Dùng chữ số, có thể có dấu + đầu, dài 6-15.</value>
+  </data>
+  <data name="AP_PositionRequired" xml:space="preserve">
+    <value>Chức vụ là bắt buộc.</value>
+  </data>
+  <data name="AP_PositionMaxLength" xml:space="preserve">
+    <value>Chức vụ không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AP_PartnerCodeExists" xml:space="preserve">
+    <value>Mã đối tác '{0}' đã tồn tại.</value>
+  </data>
+  <data name="TuitionNameRequired" xml:space="preserve">
+    <value>Tên học phí là bắt buộc.</value>
+  </data>
+  <data name="TuitionNameMaxLength" xml:space="preserve">
+    <value>Tên học phí không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CourseRequired" xml:space="preserve">
+    <value>Bạn cần chọn khóa học.</value>
+  </data>
+  <data name="ClassTypeRequired" xml:space="preserve">
+    <value>Bạn cần chọn loại lớp học.</value>
+  </data>
+  <data name="DurationHoursPositive" xml:space="preserve">
+    <value>Số giờ học phải lớn hơn 0.</value>
+  </data>
+  <data name="DurationHoursMax" xml:space="preserve">
+    <value>Số giờ học không được vượt quá {0}.</value>
+  </data>
+  <data name="MinHoursPositive" xml:space="preserve">
+    <value>Số giờ đăng ký tối thiểu phải lớn hơn 0.</value>
+  </data>
+  <data name="MinHoursLessThanDuration" xml:space="preserve">
+    <value>Số giờ đăng ký tối thiểu phải nhỏ hơn hoặc bằng tổng số giờ học.</value>
+  </data>
+  <data name="TotalMonthsMax" xml:space="preserve">
+    <value>Tổng số tháng học không được vượt quá {0}.</value>
+  </data>
+  <data name="TuitionFeeNonNegative" xml:space="preserve">
+    <value>Học phí không được âm.</value>
+  </data>
+  <data name="Tuition" xml:space="preserve">
+    <value>Học phí</value>
+  </data>
+  <data name="InvalidGuidFormat" xml:space="preserve">
+    <value>Giá trị Guid không hợp lệ</value>
+  </data>
+  <data name="ERR_CONCURRENCY" xml:space="preserve">
+    <value>Dữ liệu đã bị thay đổi hoặc xóa bởi người khác. Vui lòng tải lại và thử lại.</value>
+  </data>
+  <data name="RecruitmentInfo" xml:space="preserve">
+    <value>Thông tin tuyển dụng</value>
+  </data>
+  <data name="RecruitmentInfoNameRequired" xml:space="preserve">
+    <value>Tiêu đề tuyển dụng là bắt buộc.</value>
+  </data>
+  <data name="RecruitmentInfoNameMaxLength" xml:space="preserve">
+    <value>Tiêu đề tuyển dụng không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ExperienceMaxLength" xml:space="preserve">
+    <value>Kinh nghiệm không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="SalaryMustBePositive" xml:space="preserve">
+    <value>Mức lương phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="PositionRequired" xml:space="preserve">
+    <value>Vị trí là bắt buộc.</value>
+  </data>
+  <data name="ProvinceRequired" xml:space="preserve">
+    <value>Tỉnh/Thành phố là bắt buộc.</value>
+  </data>
+  <data name="RecruitmentApply" xml:space="preserve">
+    <value>Ứng tuyển</value>
+  </data>
+  <data name="CandidateNameRequired" xml:space="preserve">
+    <value>Họ tên ứng viên là bắt buộc.</value>
+  </data>
+  <data name="CandidateNameMaxLength" xml:space="preserve">
+    <value>Họ tên không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CandidateEmailRequired" xml:space="preserve">
+    <value>Email ứng viên là bắt buộc.</value>
+  </data>
+  <data name="CandidateEmailInvalid" xml:space="preserve">
+    <value>Email không hợp lệ.</value>
+  </data>
+  <data name="CandidateEmailMaxLength" xml:space="preserve">
+    <value>Email không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CandidatePhoneRequired" xml:space="preserve">
+    <value>Số điện thoại là bắt buộc.</value>
+  </data>
+  <data name="CandidatePhoneMaxLength" xml:space="preserve">
+    <value>Số điện thoại không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CandidateCVMaxLength" xml:space="preserve">
+    <value>Liên kết CV không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="RecruitmentInfoIdRequired" xml:space="preserve">
+    <value>Vui lòng chọn tin tuyển dụng.</value>
+  </data>
+  <data name="InvalidDbContextInstance" xml:space="preserve">
+    <value>Không thể truy cập dữ liệu. Vui lòng thử lại sau.</value>
+  </data>
+  <data name="CategoryModelRequired" xml:space="preserve">
+    <value>Vui lòng nhập thông tin Category model.</value>
+  </data>
+  <data name="AgeGroupNameRequired" xml:space="preserve">
+    <value>Vui lòng nhập tên nhóm tuổi.</value>
+  </data>
+  <data name="AgeGroupFromRequired" xml:space="preserve">
+    <value>Vui lòng nhập độ tuổi bắt đầu của nhóm tuổi.</value>
+  </data>
+  <data name="AgeGroupToRequired" xml:space="preserve">
+    <value>Vui lòng nhập độ tuổi kết thúc của nhóm tuổi.</value>
+  </data>
+  <data name="AgeGroupFromPositive" xml:space="preserve">
+    <value>Độ tuổi bắt đầu của nhóm tuổi phải là số dương.</value>
+  </data>
+  <data name="AgeGroupToPositive" xml:space="preserve">
+    <value>Độ tuổi kết thúc của nhóm tuổi phải là số dương.</value>
+  </data>
+  <data name="AgeGroupFromLessThanTo" xml:space="preserve">
+    <value>Độ tuổi bắt đầu phải nhỏ hơn độ tuổi kết thúc.</value>
+  </data>
+  <data name="AgeGroupNameMaxLength" xml:space="preserve">
+    <value>Tên nhóm tuổi không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AgeGroupDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả nhóm tuổi không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AgeGroupCodeRequired" xml:space="preserve">
+    <value>Vui lòng nhập mã nhóm tuổi.</value>
+  </data>
+  <data name="AgeGroupCodeMaxLength" xml:space="preserve">
+    <value>Mã nhóm tuổi không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="AgeGroupCodeInvalidFormat" xml:space="preserve">
+    <value>Mã nhóm tuổi không hợp lệ. Mã phải bắt đầu bằng {0} và có độ dài {1} ký tự.</value>
+  </data>
+  <data name="SkillCodeRequired" xml:space="preserve">
+    <value>Vui lòng nhập mã kỹ năng.</value>
+  </data>
+  <data name="SkillNameRequired" xml:space="preserve">
+    <value>Vui lòng nhập tên kỹ năng.</value>
+  </data>
+  <data name="SkillCodeMaxLength" xml:space="preserve">
+    <value>Mã kỹ năng không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="SkillNameMaxLength" xml:space="preserve">
+    <value>Skill name cannot exceed {0} characters.</value>
+  </data>
+  <data name="SkillDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả kỹ năng không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="LearningRoadMapCodeNoSpaces" xml:space="preserve">
+    <value>Mã chương trình học không được chứa khoảng trắng.</value>
+  </data>
+  <data name="LearningRoadMapNameMaxLength" xml:space="preserve">
+    <value>Tên chương trình học không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="LearningRoadMapDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả chương trình học không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CourseCodeRequired" xml:space="preserve">
+    <value>Mã khóa học không được để trống.</value>
+  </data>
+  <data name="CourseCodeMaxLength" xml:space="preserve">
+    <value>Mã khóa học không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CourseCodeNoSpaces" xml:space="preserve">
+    <value>Mã khóa học không được chứa khoảng trắng.</value>
+  </data>
+  <data name="CourseNameRequired" xml:space="preserve">
+    <value>Tên khóa học không được để trống.</value>
+  </data>
+  <data name="CourseNameMaxLength" xml:space="preserve">
+    <value>Tên khóa học không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CourseDescriptionMaxLength" xml:space="preserve">
+    <value>Mô tả khóa học không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CommitmentLevelRequired" xml:space="preserve">
+    <value>Bạn cần chọn trình độ cam kết.</value>
+  </data>
+  <data name="CourseCommitmentLevelMaxLength" xml:space="preserve">
+    <value>Trình độ cam kết không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CommitmentLevelCannotBeSetWhenCommitmentOutputFalse" xml:space="preserve">
+    <value>Không thể điền trình độ cam kết vì bạn không chọn cam kết đầu ra.</value>
+  </data>
+  <data name="CourseReferenceMaxLength" xml:space="preserve">
+    <value>Thông tin tham khảo không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CourseMidExamIdsMaxLength" xml:space="preserve">
+    <value>Danh sách ID bài kiểm tra giữa kỳ không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="MidExamIdsMustBeGuids" xml:space="preserve">
+    <value>Các ID bài kiểm tra giữa kỳ phải là định dạng GUID.</value>
+  </data>
+  <data name="CourseFinalExamIdsMaxLength" xml:space="preserve">
+    <value>Danh sách ID bài kiểm tra cuối kỳ không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="FinalExamIdsMustBeGuids" xml:space="preserve">
+    <value>Các ID bài kiểm tra cuối kỳ phải là GUID.</value>
+  </data>
+  <data name="CourseSequenceRange" xml:space="preserve">
+    <value>Thứ tự khóa học phải nằm trong khoảng từ {0} đến {1}.</value>
+  </data>
+  <data name="MinAvgScoreMustBeGreaterThanZero" xml:space="preserve">
+    <value>Điểm trung bình tối thiểu phải lớn hơn 0.</value>
+  </data>
+  <data name="LearningRoadmapRequired" xml:space="preserve">
+    <value>Bạn cần chọn chương trình học.</value>
+  </data>
+  <data name="LearningRoadmapIdNotEmpty" xml:space="preserve">
+    <value>Chương trình học tập không được để trống.</value>
+  </data>
+  <data name="LearningRoadmapIdNotFound" xml:space="preserve">
+    <value>Không tồn tại chương trình học tập này.</value>
+  </data>
+  <data name="Course" xml:space="preserve">
+    <value>Khóa học</value>
+  </data>
+  <data name="MidExamIdsMustBeValidCategorySkill" xml:space="preserve">
+    <value>Các ID bài kiểm tra giữa kỳ phải thuộc danh mục nội dung kiểm tra.</value>
+  </data>
+  <data name="FinalExamIdsMustBeValidCategorySkill" xml:space="preserve">
+    <value>Các ID bài kiểm tra cuối kỳ phải thuộc danh mục nội dung kiểm tra.</value>
+  </data>
+  <data name="TuitionIdRequired" xml:space="preserve">
+    <value>Bạn cần chọn Tuition.</value>
+  </data>
+  <data name="SessionNameRequired" xml:space="preserve">
+    <value>Tên buổi học không được để trống.</value>
+  </data>
+  <data name="SessionNameMaxLength" xml:space="preserve">
+    <value>Tên buổi học không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="LectureTypeRequired" xml:space="preserve">
+    <value>Bạn cần chọn loại bài giảng.</value>
+  </data>
+  <data name="LessonNameMaxLength" xml:space="preserve">
+    <value>Tên bài học không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ObjectiveMaxLength" xml:space="preserve">
+    <value>Mục tiêu không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ContentMaxLength" xml:space="preserve">
+    <value>Nội dung không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="HomeworkMaxLength" xml:space="preserve">
+    <value>Bài tập về nhà không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="ReferenceMaxLength" xml:space="preserve">
+    <value>Reference không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="TuitionNotFound" xml:space="preserve">
+    <value>Học phí được chọn không tồn tại.</value>
+  </data>
+  <data name="LectureTypeNotFound" xml:space="preserve">
+    <value>Loại bài giảng được chọn không tồn tại.</value>
+  </data>
+  <data name="ExceedMaxSessions" xml:space="preserve">
+    <value>Số buổi học vượt quá số buổi tối đa cho phép.</value>
+  </data>
+  <data name="ClassNameRequired" xml:space="preserve">
+    <value>Tên lớp không được để trống.</value>
+  </data>
+  <data name="ClassNameMaxLength" xml:space="preserve">
+    <value>Tên lớp không được vượt quá {0} ký tự.</value>
+  </data>
+  <data name="CompanyRequired" xml:space="preserve">
+    <value>Bạn cần chọn chi nhánh.</value>
+  </data>
+  <data name="InvalidClassMethod" xml:space="preserve">
+    <value>Phương thức học không hợp lệ.</value>
+  </data>
+  <data name="StartDateMustBeFutureOrToday" xml:space="preserve">
+    <value>Ngày bắt đầu phải là hôm nay hoặc ngày trong tương lai.</value>
+  </data>
+  <data name="InvalidClassStatus" xml:space="preserve">
+    <value>Trạng thái lớp học không hợp lệ.</value>
+  </data>
+  <data name="ClassScheduleRequired" xml:space="preserve">
+    <value>Lịch học không được để trống.</value>
+  </data>
+  <data name="TeacherRequired" xml:space="preserve">
+    <value>Bạn cần chọn giáo viên phụ trách.</value>
+  </data>
+  <data name="EmployeeRequired" xml:space="preserve">
+    <value>Bạn cần chọn nhân viên phụ trách lớp.</value>
+  </data>
+  <data name="CourseNotFoundOrInactive" xml:space="preserve">
+    <value>Khóa học được chọn không tồn tại hoặc không hoạt động.</value>
+  </data>
+  <data name="CompanyNotFoundOrInactive" xml:space="preserve">
+    <value>Chi nhánh được chọn không tồn tại hoặc không hoạt động.</value>
+  </data>
+  <data name="ClassTypeNotFoundOrNotInCourse" xml:space="preserve">
+    <value>Loại lớp học học không hợp lệ hoặc không thuộc khóa học.</value>
+  </data>
+  <data name="TeacherNotFoundOrInactive" xml:space="preserve">
+    <value>Giáo viên được chọn không tồn tại hoặc không hoạt động.</value>
+  </data>
+  <data name="EmployeeNotFoundOrInactive" xml:space="preserve">
+    <value>Nhân viên được chọn không tồn tại hoặc không hoạt động.</value>
+  </data>
+  <data name="ClassTypeNotFound" xml:space="preserve">
+    <value>Loại lớp học không tồn tại.</value>
+  </data>
+  <data name="SessionsPerWeekMismatch" xml:space="preserve">
+    <value>Bạn chỉ được chọn {0} buổi.</value>
+  </data>
+  <data name="InvalidClassSchedule" xml:space="preserve">
+    <value>Lịch học không hợp lệ hoặc chứa ca học không tồn tại.</value>
+  </data>
+  <data name="InvalidSessionDuration" xml:space="preserve">
+    <value>Thời gian học mỗi ca phải là {0} giờ.</value>
+  </data>
+  <data name="TeacherScheduleConflict" xml:space="preserve">
+    <value>Giáo viên có lịch trùng vào {0} từ {1:HH:mm} đến {2:HH:mm}.</value>
+  </data>
+  <data name="CannotCompleteFromPlan" xml:space="preserve">
+    <value>Không thể chuyển trạng thái từ Kế hoạch sang Hoàn thành.</value>
+  </data>
+  <data name="ProposedAllocation" xml:space="preserve">
+    <value>Đề xuất phân bổ</value>
+  </data>
+  <data name="MSG_APPROVE_CREATE_SUCCESS" xml:space="preserve">
+    <value>'{0}' thành công.</value>
+  </data>
+  <data name="APPROVED" xml:space="preserve">
+    <value>Phê duyệt</value>
+  </data>
+  <data name="REJECTED" xml:space="preserve">
+    <value>Từ chối</value>
+  </data>
+  <data name="ApproveCompanyEventModel" xml:space="preserve">
+    <value>Phê duyệt sự kiện</value>
+  </data>
+  <data name="CompanyEvent" xml:space="preserve">
+    <value>Đề xuất sự kiện của chi nhánh</value>
+  </data>
+  <data name="OutputCommitment" xml:space="preserve">
+    <value>Cam kết đầu ra</value>
+  </data>
+
+  <data name="StudentCodeRequired" xml:space="preserve">
+    <value>Mã học viên là bắt buộc.</value>
+  </data>
+  <data name="StudentCodeMaxLength" xml:space="preserve">
+    <value>Mã học viên không vượt quá {0} ký tự.</value>
+  </data>
+
+  <data name="BeginningLevelMaxLength" xml:space="preserve">
+    <value>Trình độ đầu vào không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="FinalLevelMaxLength" xml:space="preserve">
+    <value>Trình độ đầu ra không vượt quá {0} ký tự.</value>
+  </data>
+  <data name="OutputCommitmentInfoMaxLength" xml:space="preserve">
+    <value>Thông tin cam kết không vượt quá {0} ký tự.</value>
+  </data>
+
+  <data name="OutputCommitmentStatusInvalid" xml:space="preserve">
+    <value>Trạng thái cam kết không hợp lệ.</value>
+  </data>
+  <data name="StudentNotFound" xml:space="preserve">
+    <value>Không tìm thấy học viên.</value>
+  </data>
+  <data name="OutputCommitment_Header" xml:space="preserve">
+    <value>CAM KẾT ĐẦU RA</value>
+  </data>
+
+  <data name="OutputCommitment_Tagline" xml:space="preserve">
+    <value>“Chất lượng là danh dự thương hiệu của Regal Edu”</value>
+  </data>
+
+  <data name="OutputCommitment_SectionA" xml:space="preserve">
+    <value>A. THÔNG TIN</value>
+  </data>
+
+  <data name="OutputCommitment_StudentInfo" xml:space="preserve">
+    <value>THÔNG TIN HỌC VIÊN</value>
+  </data>
+
+  <data name="OutputCommitment_StudentName" xml:space="preserve">
+    <value>Họ tên học viên</value>
+  </data>
+
+  <data name="OutputCommitment_StudentCode" xml:space="preserve">
+    <value>Mã học viên</value>
+  </data>
+
+  <data name="OutputCommitment_Gender" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+
+  <data name="OutputCommitment_Age" xml:space="preserve">
+    <value>Tuổi</value>
+  </data>
+
+  <data name="OutputCommitment_DateOfBirth" xml:space="preserve">
+    <value>Ngày sinh</value>
+  </data>
+
+  <data name="OutputCommitment_Phone" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+
+  <data name="OutputCommitment_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+
+  <data name="OutputCommitment_ParentName1" xml:space="preserve">
+    <value>Người liên hệ 1</value>
+  </data>
+
+  <data name="OutputCommitment_ParentPhone1" xml:space="preserve">
+    <value>Số điện thoại 1</value>
+  </data>
+
+  <data name="OutputCommitment_ParentEmail1" xml:space="preserve">
+    <value>Email 1</value>
+  </data>
+
+  <data name="OutputCommitment_ParentAddress1" xml:space="preserve">
+    <value>Địa chỉ 1</value>
+  </data>
+
+  <data name="OutputCommitment_ParentName2" xml:space="preserve">
+    <value>Người liên hệ 2</value>
+  </data>
+
+  <data name="OutputCommitment_ParentPhone2" xml:space="preserve">
+    <value>Số điện thoại 2</value>
+  </data>
+
+  <data name="OutputCommitment_ParentEmail2" xml:space="preserve">
+    <value>Email 2</value>
+  </data>
+
+  <data name="OutputCommitment_ParentAddress2" xml:space="preserve">
+    <value>Địa chỉ 2</value>
+  </data>
+
+  <data name="OutputCommitment_TotalFees" xml:space="preserve">
+    <value>Tổng học phí đã đóng</value>
+  </data>
+
+  <data name="OutputCommitment_RegisteredMonths" xml:space="preserve">
+    <value>Số tháng đăng ký</value>
+  </data>
+
+  <data name="OutputCommitment_Title" xml:space="preserve">
+    <value>CHƯƠNG TRÌNH CAM KẾT ĐẦU RA</value>
+  </data>
+
+  <data name="OutputCommitment_InfoTemplate" xml:space="preserve">
+    <value>Học viên được Regal Edu đào tạo và cam kết đạt trình độ {0} khi hoàn thành lộ trình học.</value>
+  </data>
+
+  <data name="OutputCommitment_BeginningLevel" xml:space="preserve">
+    <value>Cấp độ bắt đầu</value>
+  </data>
+
+  <data name="OutputCommitment_FinalLevel" xml:space="preserve">
+    <value>Cấp độ kết thúc</value>
+  </data>
+
+  <data name="OutputCommitment_OutputLevel" xml:space="preserve">
+    <value>Trình độ cam kết</value>
+  </data>
+
+  <data name="OutputCommitment_Status" xml:space="preserve">
+    <value>Trạng thái cam kết</value>
+  </data>
+
+
+  <data name="OutputCommitment_Status_Finished" xml:space="preserve">
+    <value>Hoàn thành</value>
+  </data>
+
+  <data name="OutputCommitment_Status_NotFinished" xml:space="preserve">
+    <value>Chưa hoàn thành</value>
+  </data>
+
+  <data name="OutputCommitment_Footer" xml:space="preserve">
+    <value>www.regal.edu.vn  |  116 Trường Chinh, Kim Liên, Hà Nội  |  1900.966.963</value>
+  </data>
+
+  <data name="Notification_CompanyEvent_Proposal_PendingApproval_Title" xml:space="preserve">
+    <value>Đề xuất sự kiện doanh nghiệp đang chờ phê duyệt</value>
+  </data>
+  <data name="Notification_CompanyEvent_Proposal_PendingApproval_Message" xml:space="preserve">
+    <value>Đề xuất sự kiện doanh nghiệp '{0}' đang chờ bạn phê duyệt.</value>
+  </data>
+  <data name="Notification_CompanyEvent_Proposal_Approved_Title" xml:space="preserve">
+    <value>Đề xuất sự kiện doanh nghiệp đã được phê duyệt</value>
+  </data>
+  <data name="Notification_CompanyEvent_Proposal_Approved_Message" xml:space="preserve">
+    <value>Đề xuất sự kiện doanh nghiệp '{0}' đã được phê duyệt.</value>
+  </data>
+  <data name="Notification_CompanyEvent_Proposal_Rejected_Title" xml:space="preserve">
+    <value>Đề xuất sự kiện doanh nghiệp bị từ chối</value>
+  </data>
+  <data name="Notification_CompanyEvent_Proposal_Rejected_Message" xml:space="preserve">
+    <value>Đề xuất sự kiện doanh nghiệp '{0}' đã bị từ chối.</value>
+  </data>
+	
+</root>
+
+

@@ -1,0 +1,56 @@
+﻿using RegalEdu.Domain.Entities;
+using RegalEdu.Domain.Enumerations;
+using RegalEdu.Domain.Enums;
+using RegalEdu.Domain.Models.DTO;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace RegalEdu.Domain.Models
+{
+    // Model cho bảng chiết khấu
+    public class CouponTypeModel : BaseEntityModel
+    {
+        public string? Name { get; set; } // phương thức chiết khấu 
+                                          //public int? DueType { get; set; }      //Số tiền chiết khấu tối đa 
+                                          // public int MyProperty { get; set; }
+
+        public string? Code { get; set; } // Mã loại coupon
+        // Hiệu lực
+        public PromotionType? Type { get; set; } // Loại coupon (ví dụ: "Theo thời hạn")
+        public DueType? DueType { get; set; } // Loại thời gian (ví dụ: "Theo thời hạn")
+        public int? DurationInDays { get; set; } // Thời hạn sử dụng (nếu có)
+        public DateTime? StartDate { get; set; } //ngày bắt đầu 
+        public DateTime? EndDate { get; set; }//ngày kết thúc
+        // Cấu trúc sinh coupon
+        public string? Prefix { get; set; } // Tiền tố
+        public string? Suffix { get; set; } // Hậu tố
+        public int? CharacterCount { get; set; } // Số lượng ký tự
+
+        // Điều kiện áp dụng
+        public bool? ApplyWith { get; set; } // Áp dụng cùng các CTKM khác
+        public bool? IsForAllCompany { get; set; } // Áp dụng cho tất cả học viên
+        public bool? IsForAllCourse { get; set; } // Áp dụng cho tất cả học viên
+        public string? CompanyIds { get; set; } //điều kiện chi nhánh áp dụng
+       
+        public string? CourseIds { get; set; } //điều kiện theo khóa học ap dụng
+        
+
+        public int? MinQuantity { get; set; } // Số lượng tối thiểu
+
+        // Học viên áp dụng
+        public bool? IsForAllStudents { get; set; } // Áp dụng cho tất cả học viên
+        public string? StudentIds { get; set; }
+        public string? Note { get; set; } //Ghi chú
+        // Mô tả
+        public string? Description { get; set; }
+        public virtual ICollection<CouponTypeDiscountModel>? CouponTypeDiscounts { get; set; }
+        //public virtual ICollection<CouponTypeFixedPriceModel>? CouponTypeFixedPrices { get; set; }
+        //public virtual ICollection<CouponTypeGiftModel>? CouponTypeGifts { get; set; }
+        //public virtual ICollection<CouponTypeCouponModel>? CouponTypeCoupons { get; set; } //danh sách học viên được áp dụng
+        public virtual ICollection<CouponIssueModel>? CouponIssues { get; set; }// danh sách coupon được phát hành
+       // public virtual ICollection<CouponStudentModel>? CouponStudents { get; set; } //danh sách học viên được áp dụng
+        public CouponTypeStatus? CouponTypeStatus { get; set; } //trạng thái loại coupon
+
+    }
+
+}

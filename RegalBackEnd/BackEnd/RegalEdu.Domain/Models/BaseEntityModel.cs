@@ -1,0 +1,20 @@
+﻿using RegalEdu.Domain.Enums;
+
+namespace RegalEdu.Domain.Models
+{
+    public abstract class BaseEntityModel
+    {
+        public Guid? Id { get; set; } = Guid.NewGuid ( );
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime? UpdatedAt { get; set; }
+        public bool IsDeleted { get; set; } = false;
+        public DateTime? DeletedAt { get; set; }
+        public string? CreatedBy { get; set; }
+        public string? UpdatedBy { get; set; }
+        public string? DeletedBy { get; set; }
+        /// <summary>
+        /// 0 = Đang hoạt động, 1 = Ngừng hoạt động
+        /// </summary>
+        public StatusType Status { get; set; } = 0;
+    }
+}

@@ -1,0 +1,97 @@
+{
+  "version": "2.0.0",
+    "inputs": [
+    {
+      "id": "migrationName",
+      "type": "promptString",
+      "description": "Nhập tên migration (vd: InitDb, AddCourseTable...)",
+      "default": "InitDb"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "Run API HTTPS",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "watch",
+        "run",
+        "--project",
+        "RegalEdu.BackEnd/RegalEdu.Api.csproj",
+        "--launch-profile",
+        "https"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+      {
+      "label": "EF: Add Migration (Persistence)",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "ef",
+        "migrations",
+        "add",
+        "${input:migrationName}",
+        "--project",
+        "RegalEdu.Persistence/RegalEdu.Persistence.csproj",
+        "--startup-project",
+        "RegalEdu.BackEnd/RegalEdu.Api.csproj",
+        "--context",
+        "RegalEducationDbContext",
+        "--output-dir",
+        "Migrations"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": { "ASPNETCORE_ENVIRONMENT": "Development" }
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "EF: Update Database (Persistence)",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "ef",
+        "database",
+        "update",
+        "--project",
+        "RegalEdu.Persistence/RegalEdu.Persistence.csproj",
+        "--startup-project",
+        "RegalEdu.BackEnd/RegalEdu.Api.csproj",
+        "--context",
+        "RegalEducationDbContext"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+      },
+      "problemMatcher": "$msCompile",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Build RegalEdu API (Debug)",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "RegalEdu.BackEnd/RegalEdu.Api.csproj",
+        "-c",
+        "Debug"
+      ],
+      "problemMatcher": "$msCompile",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

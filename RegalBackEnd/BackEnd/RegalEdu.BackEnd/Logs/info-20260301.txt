@@ -1,0 +1,12 @@
+[2026-03-01 00:00:02 INF] JobCompleteStart
+[2026-03-01 00:00:02 INF] JobLockStart
+[2026-03-01 00:00:02 INF] JobStart
+[2026-03-01 00:00:02 INF] JobLockDone
+[2026-03-01 00:00:02 INF] JobCompleteDone
+[2026-03-01 00:00:02 INF] JobTriggerUsableStart
+[2026-03-01 00:00:02 INF] JobUsableStart
+[2026-03-01 00:00:02 INF] JobDone
+[2026-03-01 00:00:02 INF] JobUsableNoData
+[2026-03-01 00:00:02 INF] JobTriggerUsableDone
+[2026-03-01 14:48:06 INF] Background worker service is starting.
+[2026-03-01 14:50:17 INF] Background worker service is starting.

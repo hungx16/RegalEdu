@@ -1,0 +1,6 @@
+@RegalEdu.BackEnd_HostAddress = http://localhost:5064
+
+GET {{RegalEdu.BackEnd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,26 @@
+[
+  {
+    "DocumentTypeId": 1,
+    "DocumentTypeName": "Ebook"
+  },
+  {
+    "DocumentTypeId": 2,
+    "DocumentTypeName": "Video"
+  },
+  {
+    "DocumentTypeId": 3,
+    "DocumentTypeName": "Audio"
+  },
+  {
+    "DocumentTypeId": 4,
+    "DocumentTypeName": "PDF"
+  },
+  {
+    "DocumentTypeId": 5,
+    "DocumentTypeName": "Interactive"
+  },
+  {
+    "DocumentTypeId": 6,
+    "DocumentTypeName": "Link"
+  }
+]

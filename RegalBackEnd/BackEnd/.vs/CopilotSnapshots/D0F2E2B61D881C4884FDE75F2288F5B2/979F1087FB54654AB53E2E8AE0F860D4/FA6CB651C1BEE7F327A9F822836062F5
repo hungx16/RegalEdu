@@ -1,0 +1,13 @@
+﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
+
+namespace RegalEdu.Api.Controllers
+{
+    [Authorize]
+    public class CustomerRewardController : BaseController
+    {
+        public CustomerRewardController(IMediator mediator) : base(mediator)
+        {
+        }
+    }
+}

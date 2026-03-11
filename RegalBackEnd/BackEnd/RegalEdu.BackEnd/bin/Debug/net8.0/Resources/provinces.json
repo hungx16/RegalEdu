@@ -1,0 +1,172 @@
+[
+  {
+    "ProvinceCode": "08",
+    "ProvinceName": "Tuyên Quang",
+    "EnProvinceName": "Tuyen Quang"
+  },
+  {
+    "ProvinceCode": "15",
+    "ProvinceName": "Lào Cai",
+    "EnProvinceName": "Lao Cai"
+  },
+  {
+    "ProvinceCode": "19",
+    "ProvinceName": "Thái Nguyên",
+    "EnProvinceName": "Thai Nguyen"
+  },
+  {
+    "ProvinceCode": "25",
+    "ProvinceName": "Phú Thọ",
+    "EnProvinceName": "Phu Tho"
+  },
+  {
+    "ProvinceCode": "24",
+    "ProvinceName": "Bắc Ninh",
+    "EnProvinceName": "Bac Ninh"
+  },
+  {
+    "ProvinceCode": "33",
+    "ProvinceName": "Hưng Yên",
+    "EnProvinceName": "Hung Yen"
+  },
+  {
+    "ProvinceCode": "31",
+    "ProvinceName": "Hải Phòng",
+    "EnProvinceName": "Hai Phong"
+  },
+  {
+    "ProvinceCode": "37",
+    "ProvinceName": "Ninh Bình",
+    "EnProvinceName": "Ninh Binh"
+  },
+  {
+    "ProvinceCode": "45",
+    "ProvinceName": "Quảng Trị",
+    "EnProvinceName": "Quang Tri"
+  },
+  {
+    "ProvinceCode": "48",
+    "ProvinceName": "Đà Nẵng",
+    "EnProvinceName": "Da Nang"
+  },
+  {
+    "ProvinceCode": "51",
+    "ProvinceName": "Quảng Ngãi",
+    "EnProvinceName": "Quang Ngai"
+  },
+  {
+    "ProvinceCode": "52",
+    "ProvinceName": "Gia Lai",
+    "EnProvinceName": "Gia Lai"
+  },
+  {
+    "ProvinceCode": "56",
+    "ProvinceName": "Khánh Hoà",
+    "EnProvinceName": "Khanh Hoa"
+  },
+  {
+    "ProvinceCode": "68",
+    "ProvinceName": "Lâm Đồng",
+    "EnProvinceName": "Lam Dong"
+  },
+  {
+    "ProvinceCode": "66",
+    "ProvinceName": "Đắk Lắk",
+    "EnProvinceName": "Dak Lak"
+  },
+  {
+    "ProvinceCode": "79",
+    "ProvinceName": "Hồ Chí Minh",
+    "EnProvinceName": "Ho Chi Minh City"
+  },
+  {
+    "ProvinceCode": "75",
+    "ProvinceName": "Đồng Nai",
+    "EnProvinceName": "Dong Nai"
+  },
+  {
+    "ProvinceCode": "72",
+    "ProvinceName": "Tây Ninh",
+    "EnProvinceName": "Tay Ninh"
+  },
+  {
+    "ProvinceCode": "92",
+    "ProvinceName": "Cần Thơ",
+    "EnProvinceName": "Can Tho"
+  },
+  {
+    "ProvinceCode": "86",
+    "ProvinceName": "Vĩnh Long",
+    "EnProvinceName": "Vinh Long"
+  },
+  {
+    "ProvinceCode": "87",
+    "ProvinceName": "Đồng Tháp",
+    "EnProvinceName": "Dong Thap"
+  },
+  {
+    "ProvinceCode": "96",
+    "ProvinceName": "Cà Mau",
+    "EnProvinceName": "Ca Mau"
+  },
+  {
+    "ProvinceCode": "91",
+    "ProvinceName": "An Giang",
+    "EnProvinceName": "An Giang"
+  },
+  {
+    "ProvinceCode": "01",
+    "ProvinceName": "Hà Nội",
+    "EnProvinceName": "Hanoi"
+  },
+  {
+    "ProvinceCode": "46",
+    "ProvinceName": "Huế",
+    "EnProvinceName": "Hue"
+  },
+  {
+    "ProvinceCode": "12",
+    "ProvinceName": "Lai Châu",
+    "EnProvinceName": "Lai Chau"
+  },
+  {
+    "ProvinceCode": "11",
+    "ProvinceName": "Điện Biên",
+    "EnProvinceName": "Dien Bien"
+  },
+  {
+    "ProvinceCode": "14",
+    "ProvinceName": "Sơn La",
+    "EnProvinceName": "Son La"
+  },
+  {
+    "ProvinceCode": "20",
+    "ProvinceName": "Lạng Sơn",
+    "EnProvinceName": "Lang Son"
+  },
+  {
+    "ProvinceCode": "22",
+    "ProvinceName": "Quảng Ninh",
+    "EnProvinceName": "Quang Ninh"
+  },
+  {
+    "ProvinceCode": "38",
+    "ProvinceName": "Thanh Hoá",
+    "EnProvinceName": "Thanh Hoa"
+  },
+  {
+    "ProvinceCode": "40",
+    "ProvinceName": "Nghệ An",
+    "EnProvinceName": "Nghe An"
+  },
+  {
+    "ProvinceCode": "42",
+    "ProvinceName": "Hà Tĩnh",
+    "EnProvinceName": "Ha Tinh"
+  },
+  {
+    "ProvinceCode": "04",
+    "ProvinceName": "Cao Bằng",
+    "EnProvinceName": "Cao Bang"
+  }
+]

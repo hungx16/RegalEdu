@@ -1,0 +1,13 @@
+﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
+
+namespace RegalEdu.Api.Controllers
+{
+    [Authorize]
+    public class LuckyDrawController : BaseController
+    {
+        public LuckyDrawController(IMediator mediator) : base(mediator)
+        {
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <g fill="none" stroke="#F0C419" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- cap top (diamond) -->
+    <polygon points="16,44 64,24 112,44 64,64" />
+    <!-- cap band -->
+    <path d="M28 66c24 12 48 12 72 0" />
+    <!-- tassel string -->
+    <path d="M96 44v24" />
+    <!-- tassel knot & tail -->
+    <circle cx="96" cy="74" r="4" fill="#F0C419" stroke="none"/>
+    <path d="M96 78c0 6 8 10 8 16s-8 6-8 0" />
+  </g>
+</svg>

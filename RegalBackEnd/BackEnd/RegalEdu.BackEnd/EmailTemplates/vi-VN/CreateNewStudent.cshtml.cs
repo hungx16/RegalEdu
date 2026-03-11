@@ -1,0 +1,11 @@
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace RegalEdu.Api.EmailTemplates.vi_VN
+{
+    public class StudentModelRequest : PageModel
+    {
+        public void OnGet( )
+        {
+        }
+    }
+}
