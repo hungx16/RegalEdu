@@ -1,0 +1,290 @@
+//
+// Theme style
+//
+
+// Initialize
+@import "init";
+/* ... import bootstrap/metronic trước ... */
+@import './overrides/tag-soft';
+
+// Components
+@import "./core/components/components";
+@import "components/components";
+
+// Layout
+@import "./core/layout/base/layout";
+@import "layout/layout";
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 0.875rem;
+    --button-height: 35px;
+    --global-radius: 8px;
+    --global-radius-sm: 4px;
+}
+
+/* Light Theme */
+html[data-bs-theme="light"] {
+    --kt-menu-bg: #f2f2f2;
+    --kt-menu-hover-bg: #f4c430;
+    --kt-menu-hover-color: #3F4254;
+    --kt-menu-active-bg: #5b2c6f;
+    --kt-menu-active-color: #ffffff;
+    --kt-menu-heading-color: #212225;
+    --kt-menu-text-color: #333;
+    --kt-menu-text-color-active: #ffffff;
+    --kt-menu-text-title: #333333;
+    --kt-menu-border-color: #e2e8f0;
+    --kt-button-bg: #5b2c6f;
+    --kt-button-text-color: #ffffff;
+}
+
+/* Dark Theme */
+html[data-bs-theme="dark"] {
+    --kt-menu-bg: #2a2a2a;
+    --kt-menu-hover-bg: #745a04;
+    --kt-menu-hover-color: #ffffff;
+    --kt-menu-active-bg: #6835f5;
+    --kt-menu-active-color: #ffffff;
+    --kt-menu-heading-color: #d7daec;
+    --kt-menu-text-color: #cbd5e1;
+    --kt-menu-text-color-active: #ffffff;
+    --kt-menu-text-title: #b0cce1;
+    --kt-menu-border-color: #3f4144;
+    --table-background: #2a2a2a;
+    --kt-button-bg: #5b2c6f;
+    --kt-button-text-color: #ffffff;
+
+}
+
+
+.el-select,
+.el-input {
+    width: 100%;
+}
+
+.el-scrollbar__bar.is-horizontal {
+    height: 12px;
+}
+
+.el-scrollbar__bar.is-vertical {
+    width: 12px;
+}
+
+.modal-title-section {
+    background: #f1f3f9;
+    /* Màu nền đậm hơn form, có thể thay đổi */
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.modal-title-section-success {
+    background: #198754;
+    /* Bootstrap success */
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.modal-title-section h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.modal-title-divider {
+    border: none;
+    border-top: 2px solid #d1d5db;
+    margin: 0;
+}
+
+.modal-header-success {
+    background: #198754;
+    /* Bootstrap success */
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    position: relative;
+    min-height: 56px;
+    padding: 0;
+}
+
+.modal-header-primary {
+    background: #0d6efd;
+    /* Bootstrap primary */
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    position: relative;
+    min-height: 56px;
+    padding: 0;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.el-input__wrapper {
+    min-height: 35px;
+}
+
+.el-select__wrapper {
+    min-height: 35px;
+}
+
+.el-date-editor.el-input,
+.el-date-editor.el-input__inner {
+    min-height: 35px;
+}
+
+.el-input__inner {
+    font-size: 0.875rem; // 14px
+}
+
+.el-select__wrapper,
+.el-select-dropdown__item {
+    font-size: 0.875rem !important // 14px
+}
+
+.el-table {
+    font-size: 0.875rem !important; // 14px
+}
+
+html[data-bs-theme="dark"] .card,
+html[data-bs-theme="dark"] .summary-card {
+    background: var(--kt-menu-bg, #23272b) !important;
+}
+
+:deep(.el-table) {
+    background-color: #23272f !important;
+    /* nền bảng sáng hơn */
+    color: #f2f2f2;
+}
+
+:deep(.el-table th) {
+    background-color: #303540 !important;
+    /* header sáng hơn, nhẹ mắt */
+    color: #fff;
+}
+
+:deep(.el-table__body-wrapper tr) {
+    background-color: #23272f !important;
+    /* nền dòng bảng sáng hơn */
+}
+
+:deep(.el-table__row) td {
+    background-color: #23272f !important;
+}
+
+:deep(.el-table__row:hover) td {
+    background-color: #33384a !important;
+    /* hover */
+}
+
+:deep(.custom-header-bg .el-table__header-wrapper th) {
+    background-color: #303540 !important;
+    color: #fff;
+}
+
+:deep(.el-table__cell) {
+    border-bottom: 1px solid #3a3f4c !important;
+}
+
+
+
+html[data-bs-theme="dark"] .custom-header-bg .el-table__header-wrapper th {
+    background-color: var(--table-background) !important;
+    color: #fff;
+}
+
+html[data-bs-theme="dark"] .el-table__body-wrapper tr td {
+    background-color: var(--table-background) !important;
+}
+
+.app-header {
+    background-color: var(--kt-menu-bg) !important;
+    color: var(--kt-menu-text-color) !important;
+}
+
+.el-button-login {
+    border-radius: var(--global-radius, 8px) !important;
+    font-weight: 500;
+    font-size: 1.2rem; // 24px
+    background-color: var(--kt-button-bg, #5b2c6f);
+    color: var(--kt-button-text-color, #ffffff);
+    height: 40px;
+}
+
+.el-button {
+    border-radius: var(--global-radius, 8px) !important;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 0.875rem; // 14px
+    background-color: var(--kt-button-bg, #5b2c6f);
+    color: var(--kt-button-text-color, #ffffff);
+}
+
+.btn {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: var(--button-height, 26px) !important;
+}
+
+/* Toàn bộ button hover vàng */
+.el-button-login,
+.el-button,
+.btn,
+[role="button"],
+.el-button--circle {
+    // transition: background 0.16s, color 0.16s;
+
+    &:hover,
+    &:focus-visible {
+        background-color: #FFD33D !important;
+        /* màu vàng đậm tươi, giống ảnh */
+        color: #222 !important;
+        border-color: #FFD33D !important;
+        // box-shadow: 0 2px 8px 0 rgba(255, 211, 61, 0.18);
+    }
+}
+
+.el-button i {
+    color: white
+}
+
+.btn-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    /* khớp UI anh đang dùng */
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* Nếu có dùng .el-button--circle riêng cho icon: */
+.el-button--circle:hover,
+.el-button--circle:focus-visible {
+    background-color: #FFD33D !important;
+    color: #222 !important;
+    border-color: #FFD33D !important;
+}
+
+.icon-refresh {
+    color: #409eff;
+}
+
+.div-history {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2px;
+    padding-bottom: 3px;
+}
+
+.btn-no-background {
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    cursor: pointer;
+}
