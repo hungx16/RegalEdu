@@ -72,6 +72,10 @@ namespace RegalEducation.Persistence // Corrected spelling of 'Edu' to 'Educatio
         public DbSet<SupportingDocument> SupportingDocuments { get; set; }
         public DbSet<Image> Images { get; set; }
         public DbSet<LogEmployeePosition> LogEmployeePositions { get; set; } // Bảng ghi log thay đổi vị trí nhân viên
+        // Lucky draw and rewards
+        public DbSet<LuckyDraw> LuckyDraws { get; set; }
+        public DbSet<CustomerReward> CustomerRewards { get; set; }
+        public DbSet<Reward> Rewards { get; set; }
         //Vũ thêm phần Tuyển sinh
 
         public DbSet<RegisterStudy> RegisterStudys { get; set; }

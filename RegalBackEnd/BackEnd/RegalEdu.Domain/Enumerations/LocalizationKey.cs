@@ -78,8 +78,12 @@
         GeneralDeleteError,
         ERR_INVALID_VALUE,
         MSG_UPDATE_SUCCESS_NOCHANGE,
-        CreateNewStudent
-
+        CreateNewStudent,
+        //Hung
+        ERR_NOTFOUND,
+        ERR_ALREADY_ACCEPTED,
+        ERR_ALREADY_RECEIVED,
+        ERR_INVALID_ID
     }
 
 }

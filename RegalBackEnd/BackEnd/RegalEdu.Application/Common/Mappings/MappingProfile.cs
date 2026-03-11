@@ -68,6 +68,14 @@ namespace UserManagement.Application.Common.Mappings
             CreateMap<LogRegionCom, LogRegionComModel>().ReverseMap();
             CreateMap<LogRegionCom, LogRegionComDto>().ReverseMap();
 
+            // LuckyDraw and Reward mappings
+            CreateMap<RegalEdu.Domain.Entities.LuckyDraw, RegalEdu.Domain.Models.LuckyDrawModel>().ReverseMap();
+            CreateMap<RegalEdu.Domain.Entities.LuckyDraw, RegalEdu.Domain.Models.DTO.LuckyDrawDto>().ReverseMap();
+            CreateMap<RegalEdu.Domain.Entities.Reward, RegalEdu.Domain.Models.RewardModel>().ReverseMap();
+            CreateMap<RegalEdu.Domain.Entities.Reward, RegalEdu.Domain.Models.DTO.RewardDto>().ReverseMap();
+            CreateMap<RegalEdu.Domain.Entities.CustomerReward, RegalEdu.Domain.Models.CustomerRewardModel>().ReverseMap();
+            CreateMap<RegalEdu.Domain.Entities.CustomerReward, RegalEdu.Domain.Models.DTO.CustomerRewardDto>().ReverseMap();
+
             CreateMap<Employee, EmployeeDto>().ReverseMap();
             CreateMap<Employee, EmployeeModel>()
                 .ForMember(dest => dest.ApplicationUser, opt => opt.MapFrom(src => src.ApplicationUser))
