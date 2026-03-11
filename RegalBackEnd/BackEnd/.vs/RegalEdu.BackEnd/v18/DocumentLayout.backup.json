@@ -1,129 +1,129 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\",
+  "WorkspaceRootPath": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\luckydraw\\commands\\updateluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\luckydraw\\commands\\updateluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\luckydraw\\commands\\deleteluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\luckydraw\\commands\\deleteluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\luckydraw\\commands\\createluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\luckydraw\\commands\\createluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\controllers\\customerrewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\controllers\\customerrewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\reward\\validators\\createrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\reward\\validators\\createrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\controllers\\luckydrawcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.backend\\controllers\\luckydrawcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\controllers\\luckydrawcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\reward\\validators\\updaterewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\luckydraw\\commands\\updateluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\luckydraw\\commands\\updateluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\luckydraw\\commands\\deleteluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\luckydraw\\commands\\deleteluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\luckydraw\\commands\\createluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\luckydraw\\commands\\createluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.backend\\controllers\\customerrewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\controllers\\customerrewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\reward\\validators\\createrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\reward\\validators\\createrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\reward\\validators\\updaterewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\reward\\validators\\updaterewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\reward\\commands\\updaterewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\reward\\commands\\updaterewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\reward\\commands\\updaterewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\reward\\commands\\deleterewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\reward\\commands\\deleterewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\reward\\commands\\deleterewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\luckydraw\\validators\\updateluckydrawcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\luckydraw\\validators\\updateluckydrawcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\luckydraw\\validators\\updateluckydrawcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\commands\\updatecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\commands\\updatecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\commands\\updatecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\reward\\commands\\createrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\reward\\commands\\createrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\reward\\commands\\createrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\luckydraw\\validators\\createluckydrawcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\luckydraw\\validators\\createluckydrawcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\luckydraw\\validators\\createluckydrawcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\queries\\getpagedcustomerrewardsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\queries\\getpagedcustomerrewardsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\queries\\getpagedcustomerrewardsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\commands\\confirmreceivecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\commands\\confirmreceivecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\commands\\confirmreceivecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\controllers\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.backend\\controllers\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\controllers\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\controllers\\lecturetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.backend\\controllers\\lecturetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\controllers\\lecturetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\controllers\\learningroadmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.backend\\controllers\\learningroadmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\controllers\\learningroadmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\controllers\\accountgroupemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.backend\\controllers\\accountgroupemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\controllers\\accountgroupemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\controllers\\accountgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.backend\\controllers\\accountgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\controllers\\accountgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\common\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\common\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\common\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E369E6-0F42-A877-B570-6D62FCF8E487}|RegalEdu.Domain\\RegalEdu.Domain.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.domain\\enumerations\\localizationkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5E369E6-0F42-A877-B570-6D62FCF8E487}|RegalEdu.Domain\\RegalEdu.Domain.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.domain\\enumerations\\localizationkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5E369E6-0F42-A877-B570-6D62FCF8E487}|RegalEdu.Domain\\RegalEdu.Domain.csproj|solutionrelative:regaledu.domain\\enumerations\\localizationkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\commands\\confirmacceptancecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\commands\\confirmacceptancecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\commands\\confirmacceptancecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\validators\\updatecustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\validators\\updatecustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\validators\\updatecustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\validators\\createcustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\validators\\createcustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\validators\\createcustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\validators\\confirmreceivecustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\validators\\confirmreceivecustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\validators\\confirmreceivecustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\validators\\confirmacceptancecustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\validators\\confirmacceptancecustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\validators\\confirmacceptancecustomerrewardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\queries\\getcustomerrewardbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\queries\\getcustomerrewardbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\queries\\getcustomerrewardbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\commands\\deletecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\commands\\deletecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\commands\\deletecustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\customerreward\\commands\\createcustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\customerreward\\commands\\createcustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\customerreward\\commands\\createcustomerrewardcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\luckydraw\\queries\\getallactiveluckydrawsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.application\\luckydraw\\queries\\getallactiveluckydrawsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\luckydraw\\queries\\getallactiveluckydrawsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -133,76 +133,56 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 187,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 213,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UpdateLuckyDrawCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\UpdateLuckyDrawCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\UpdateLuckyDrawCommand.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\LuckyDraw\\Commands\\UpdateLuckyDrawCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\UpdateLuckyDrawCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\UpdateLuckyDrawCommand.cs",
               "RelativeToolTip": "RegalEdu.Application\\LuckyDraw\\Commands\\UpdateLuckyDrawCommand.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAawCgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:37:10.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeleteLuckyDrawCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
-              "RelativeDocumentMoniker": "RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
-              "RelativeToolTip": "RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAawCEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:37:04.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateLuckyDrawCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\CreateLuckyDrawCommand.cs",
-              "RelativeDocumentMoniker": "RegalEdu.Application\\LuckyDraw\\Commands\\CreateLuckyDrawCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\CreateLuckyDrawCommand.cs",
-              "RelativeToolTip": "RegalEdu.Application\\LuckyDraw\\Commands\\CreateLuckyDrawCommand.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowCEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:36:53.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:37:10.627Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CustomerRewardController.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
-              "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
-              "RelativeToolTip": "RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAwwEkAAAAAAAAAAAAAAA==",
+              "Title": "CreateLuckyDrawCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\CreateLuckyDrawCommand.cs",
+              "RelativeDocumentMoniker": "RegalEdu.Application\\LuckyDraw\\Commands\\CreateLuckyDrawCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\CreateLuckyDrawCommand.cs",
+              "RelativeToolTip": "RegalEdu.Application\\LuckyDraw\\Commands\\CreateLuckyDrawCommand.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:33:16.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:36:53.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "CustomerRewardController.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
+              "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
+              "RelativeToolTip": "RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T14:33:16.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LuckyDrawController.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LuckyDrawController.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LuckyDrawController.cs",
               "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Controllers\\LuckyDrawController.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LuckyDrawController.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LuckyDrawController.cs",
               "RelativeToolTip": "RegalEdu.BackEnd\\Controllers\\LuckyDrawController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,341 +191,331 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "DeleteLuckyDrawCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
+              "RelativeDocumentMoniker": "RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
+              "RelativeToolTip": "RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAawCEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T14:37:04.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CreateRewardCommandValidator.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Validators\\CreateRewardCommandValidator.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Validators\\CreateRewardCommandValidator.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\Reward\\Validators\\CreateRewardCommandValidator.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Validators\\CreateRewardCommandValidator.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Validators\\CreateRewardCommandValidator.cs",
               "RelativeToolTip": "RegalEdu.Application\\Reward\\Validators\\CreateRewardCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T12:06:05.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T12:06:05.466Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "UpdateRewardCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\UpdateRewardCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\UpdateRewardCommand.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\Reward\\Commands\\UpdateRewardCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\UpdateRewardCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\UpdateRewardCommand.cs",
               "RelativeToolTip": "RegalEdu.Application\\Reward\\Commands\\UpdateRewardCommand.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAEwCIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T12:05:35.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T12:05:35.745Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "DeleteRewardCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\DeleteRewardCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\DeleteRewardCommand.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\Reward\\Commands\\DeleteRewardCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\DeleteRewardCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\DeleteRewardCommand.cs",
               "RelativeToolTip": "RegalEdu.Application\\Reward\\Commands\\DeleteRewardCommand.cs",
               "ViewState": "AgIAABcAAAAAAAAAAADgvxsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T12:05:44.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T12:05:44.703Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "UpdateLuckyDrawCommandValidator.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Validators\\UpdateLuckyDrawCommandValidator.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Validators\\UpdateLuckyDrawCommandValidator.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\LuckyDraw\\Validators\\UpdateLuckyDrawCommandValidator.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Validators\\UpdateLuckyDrawCommandValidator.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Validators\\UpdateLuckyDrawCommandValidator.cs",
               "RelativeToolTip": "RegalEdu.Application\\LuckyDraw\\Validators\\UpdateLuckyDrawCommandValidator.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADgvwYAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T12:05:19.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T12:05:19.66Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "UpdateRewardCommandValidator.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Validators\\UpdateRewardCommandValidator.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Validators\\UpdateRewardCommandValidator.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\Reward\\Validators\\UpdateRewardCommandValidator.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Validators\\UpdateRewardCommandValidator.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Validators\\UpdateRewardCommandValidator.cs",
               "RelativeToolTip": "RegalEdu.Application\\Reward\\Validators\\UpdateRewardCommandValidator.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADgvwYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T12:06:11.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T12:06:11.542Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "UpdateCustomerRewardCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\UpdateCustomerRewardCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\UpdateCustomerRewardCommand.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Commands\\UpdateCustomerRewardCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\UpdateCustomerRewardCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\UpdateCustomerRewardCommand.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Commands\\UpdateCustomerRewardCommand.cs",
               "ViewState": "AgIAABoAAAAAAAAAAADgvx4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:12:04.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:12:04.177Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "CreateRewardCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\CreateRewardCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\CreateRewardCommand.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\Reward\\Commands\\CreateRewardCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\CreateRewardCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Reward\\Commands\\CreateRewardCommand.cs",
               "RelativeToolTip": "RegalEdu.Application\\Reward\\Commands\\CreateRewardCommand.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAEwCEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T12:05:26.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T12:05:26.941Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "CreateLuckyDrawCommandValidator.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Validators\\CreateLuckyDrawCommandValidator.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Validators\\CreateLuckyDrawCommandValidator.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\LuckyDraw\\Validators\\CreateLuckyDrawCommandValidator.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Validators\\CreateLuckyDrawCommandValidator.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Validators\\CreateLuckyDrawCommandValidator.cs",
               "RelativeToolTip": "RegalEdu.Application\\LuckyDraw\\Validators\\CreateLuckyDrawCommandValidator.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAADgvwcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T12:09:28.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T12:09:28.592Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "GetPagedCustomerRewardsQuery.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Queries\\GetPagedCustomerRewardsQuery.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Queries\\GetPagedCustomerRewardsQuery.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Queries\\GetPagedCustomerRewardsQuery.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Queries\\GetPagedCustomerRewardsQuery.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Queries\\GetPagedCustomerRewardsQuery.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Queries\\GetPagedCustomerRewardsQuery.cs",
               "ViewState": "AgIAABoAAAAAAAAAAADgvx4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:13:23.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:13:23.882Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "ConfirmReceiveCustomerRewardCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\ConfirmReceiveCustomerRewardCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\ConfirmReceiveCustomerRewardCommand.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Commands\\ConfirmReceiveCustomerRewardCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\ConfirmReceiveCustomerRewardCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\ConfirmReceiveCustomerRewardCommand.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Commands\\ConfirmReceiveCustomerRewardCommand.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAAAB8AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:12:33.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:12:33.974Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "RewardController.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\RewardController.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\RewardController.cs",
               "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Controllers\\RewardController.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\RewardController.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\RewardController.cs",
               "RelativeToolTip": "RegalEdu.BackEnd\\Controllers\\RewardController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAcwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:21:27.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:21:27.86Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "LectureTypeController.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LectureTypeController.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LectureTypeController.cs",
               "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Controllers\\LectureTypeController.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LectureTypeController.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LectureTypeController.cs",
               "RelativeToolTip": "RegalEdu.BackEnd\\Controllers\\LectureTypeController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:21:58.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:21:58.538Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "LearningRoadmapController.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LearningRoadmapController.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LearningRoadmapController.cs",
               "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Controllers\\LearningRoadmapController.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LearningRoadmapController.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LearningRoadmapController.cs",
               "RelativeToolTip": "RegalEdu.BackEnd\\Controllers\\LearningRoadmapController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:22:35.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:22:35.943Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "AccountGroupEmployeeController.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\AccountGroupEmployeeController.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\AccountGroupEmployeeController.cs",
               "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Controllers\\AccountGroupEmployeeController.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\AccountGroupEmployeeController.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\AccountGroupEmployeeController.cs",
               "RelativeToolTip": "RegalEdu.BackEnd\\Controllers\\AccountGroupEmployeeController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:19:57.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:19:57.188Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "AccountGroupController.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\AccountGroupController.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\AccountGroupController.cs",
               "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Controllers\\AccountGroupController.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\AccountGroupController.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\AccountGroupController.cs",
               "RelativeToolTip": "RegalEdu.BackEnd\\Controllers\\AccountGroupController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:20:07.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:20:07.499Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Common\\Mappings\\MappingProfile.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Common\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\Common\\Mappings\\MappingProfile.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Common\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\Common\\Mappings\\MappingProfile.cs",
               "RelativeToolTip": "RegalEdu.Application\\Common\\Mappings\\MappingProfile.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAuwAAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:18:24.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:18:24.172Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "LocalizationKey.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\Enumerations\\LocalizationKey.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\Enumerations\\LocalizationKey.cs",
               "RelativeDocumentMoniker": "RegalEdu.Domain\\Enumerations\\LocalizationKey.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\Enumerations\\LocalizationKey.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\Enumerations\\LocalizationKey.cs",
               "RelativeToolTip": "RegalEdu.Domain\\Enumerations\\LocalizationKey.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAQwFEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:17:42.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:17:42.157Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "CreateCustomerRewardCommandValidator.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\CreateCustomerRewardCommandValidator.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\CreateCustomerRewardCommandValidator.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Validators\\CreateCustomerRewardCommandValidator.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\CreateCustomerRewardCommandValidator.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\CreateCustomerRewardCommandValidator.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Validators\\CreateCustomerRewardCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:13:34.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:13:34.687Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "UpdateCustomerRewardCommandValidator.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\UpdateCustomerRewardCommandValidator.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\UpdateCustomerRewardCommandValidator.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Validators\\UpdateCustomerRewardCommandValidator.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\UpdateCustomerRewardCommandValidator.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\UpdateCustomerRewardCommandValidator.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Validators\\UpdateCustomerRewardCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:13:47.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:13:47.809Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "ConfirmReceiveCustomerRewardCommandValidator.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\ConfirmReceiveCustomerRewardCommandValidator.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\ConfirmReceiveCustomerRewardCommandValidator.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Validators\\ConfirmReceiveCustomerRewardCommandValidator.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\ConfirmReceiveCustomerRewardCommandValidator.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\ConfirmReceiveCustomerRewardCommandValidator.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Validators\\ConfirmReceiveCustomerRewardCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:13:57.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:13:57.429Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "ConfirmAcceptanceCustomerRewardCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\ConfirmAcceptanceCustomerRewardCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\ConfirmAcceptanceCustomerRewardCommand.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Commands\\ConfirmAcceptanceCustomerRewardCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\ConfirmAcceptanceCustomerRewardCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\ConfirmAcceptanceCustomerRewardCommand.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Commands\\ConfirmAcceptanceCustomerRewardCommand.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:12:49.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:12:49.483Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "ConfirmAcceptanceCustomerRewardCommandValidator.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\ConfirmAcceptanceCustomerRewardCommandValidator.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\ConfirmAcceptanceCustomerRewardCommandValidator.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Validators\\ConfirmAcceptanceCustomerRewardCommandValidator.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\ConfirmAcceptanceCustomerRewardCommandValidator.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Validators\\ConfirmAcceptanceCustomerRewardCommandValidator.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Validators\\ConfirmAcceptanceCustomerRewardCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:14:06.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:14:06.474Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "GetCustomerRewardByIdQuery.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Queries\\GetCustomerRewardByIdQuery.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Queries\\GetCustomerRewardByIdQuery.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Queries\\GetCustomerRewardByIdQuery.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Queries\\GetCustomerRewardByIdQuery.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Queries\\GetCustomerRewardByIdQuery.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Queries\\GetCustomerRewardByIdQuery.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:13:07.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:13:07.583Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "DeleteCustomerRewardCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\DeleteCustomerRewardCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\DeleteCustomerRewardCommand.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Commands\\DeleteCustomerRewardCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\DeleteCustomerRewardCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\DeleteCustomerRewardCommand.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Commands\\DeleteCustomerRewardCommand.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:12:17.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:12:17.678Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "CreateCustomerRewardCommand.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\CreateCustomerRewardCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\CreateCustomerRewardCommand.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\CustomerReward\\Commands\\CreateCustomerRewardCommand.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\CreateCustomerRewardCommand.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\CustomerReward\\Commands\\CreateCustomerRewardCommand.cs",
               "RelativeToolTip": "RegalEdu.Application\\CustomerReward\\Commands\\CreateCustomerRewardCommand.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:11:47.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:11:47.083Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "GetAllActiveLuckyDrawsQuery.cs",
-              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Queries\\GetAllActiveLuckyDrawsQuery.cs",
+              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Queries\\GetAllActiveLuckyDrawsQuery.cs",
               "RelativeDocumentMoniker": "RegalEdu.Application\\LuckyDraw\\Queries\\GetAllActiveLuckyDrawsQuery.cs",
-              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Queries\\GetAllActiveLuckyDrawsQuery.cs",
+              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Queries\\GetAllActiveLuckyDrawsQuery.cs",
               "RelativeToolTip": "RegalEdu.Application\\LuckyDraw\\Queries\\GetAllActiveLuckyDrawsQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T14:10:37.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T14:10:37.961Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

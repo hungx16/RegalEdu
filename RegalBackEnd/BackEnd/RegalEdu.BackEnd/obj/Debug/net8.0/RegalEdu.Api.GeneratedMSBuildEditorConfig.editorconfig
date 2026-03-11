@@ -19,53 +19,53 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v8.0
 build_property.RootNamespace = RegalEdu.Api
 build_property.RootNamespace = RegalEdu.Api
-build_property.ProjectDir = C:\Hung\git_repo\RegalBackEnd\BackEnd\RegalEdu.BackEnd\
+build_property.ProjectDir = C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.BackEnd\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Hung\git_repo\RegalBackEnd\BackEnd\RegalEdu.BackEnd
+build_property.MSBuildProjectDirectory = C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.BackEnd
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Hung/git_repo/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/en-US/CreateNewEmployee.cshtml]
+[C:/Hung/RegalEdu/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/en-US/CreateNewEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcZW4tVVNcQ3JlYXRlTmV3RW1wbG95ZWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hung/git_repo/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/en-US/CreateNewStudent.cshtml]
+[C:/Hung/RegalEdu/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/en-US/CreateNewStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcZW4tVVNcQ3JlYXRlTmV3U3R1ZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hung/git_repo/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/en-US/CreateNewTeacher.cshtml]
+[C:/Hung/RegalEdu/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/en-US/CreateNewTeacher.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcZW4tVVNcQ3JlYXRlTmV3VGVhY2hlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hung/git_repo/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/en-US/ForgotPassword.cshtml]
+[C:/Hung/RegalEdu/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/en-US/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcZW4tVVNcRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hung/git_repo/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/en-US/PasswordResetLink.cshtml]
+[C:/Hung/RegalEdu/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/en-US/PasswordResetLink.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcZW4tVVNcUGFzc3dvcmRSZXNldExpbmsuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hung/git_repo/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/vi-VN/CreateNewEmployee.cshtml]
+[C:/Hung/RegalEdu/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/vi-VN/CreateNewEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcdmktVk5cQ3JlYXRlTmV3RW1wbG95ZWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hung/git_repo/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/vi-VN/CreateNewStudent.cshtml]
+[C:/Hung/RegalEdu/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/vi-VN/CreateNewStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcdmktVk5cQ3JlYXRlTmV3U3R1ZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hung/git_repo/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/vi-VN/CreateNewTeacher.cshtml]
+[C:/Hung/RegalEdu/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/vi-VN/CreateNewTeacher.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcdmktVk5cQ3JlYXRlTmV3VGVhY2hlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hung/git_repo/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/vi-VN/ForgotPassword.cshtml]
+[C:/Hung/RegalEdu/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/vi-VN/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcdmktVk5cRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hung/git_repo/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/vi-VN/PasswordResetLink.cshtml]
+[C:/Hung/RegalEdu/RegalBackEnd/BackEnd/RegalEdu.BackEnd/EmailTemplates/vi-VN/PasswordResetLink.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcdmktVk5cUGFzc3dvcmRSZXNldExpbmsuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

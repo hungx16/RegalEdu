@@ -51,7 +51,7 @@ import { ReceiptService } from './receiptService';
 import { ClassScoreBoardService } from './ClassScoreBoardService';
 //khai báo CouponIssueService
 import { CouponIssueService } from './CouponIssueService';
-
+import { LuckyDrawService } from './LuckyDrawService'; //Hùng
 class ServiceFactory {
 
   private _applicationUserService?: ApplicationUserService;
@@ -500,13 +500,26 @@ class ServiceFactory {
 
 
   //khai báo service CouponIssueService
-  private _couponIssueService?: CouponIssueService; // Placeholder for CouponIssueService, if needed
+  private _couponIssueService?: CouponIssueService;// Placeholder for CouponIssueService, if needed
   public get couponIssueService(): CouponIssueService {
     if (!this._couponIssueService) {
       this._couponIssueService = new CouponIssueService(apiFactory.couponIssueApi);
     }
     return this._couponIssueService;
   }
+
+  private _luckyDrawService?: LuckyDrawService;
+  public get luckyDrawService(): LuckyDrawService {
+    if (!this._luckyDrawService) {
+      this._luckyDrawService = new LuckyDrawService(apiFactory.luckyDrawApi);
+    }
+    return this._luckyDrawService;
+  }
+
+
 }
+
+
+
 
 export const serviceFactory = new ServiceFactory();

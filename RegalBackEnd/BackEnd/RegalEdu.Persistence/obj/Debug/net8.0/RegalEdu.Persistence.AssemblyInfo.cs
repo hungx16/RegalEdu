@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RegalEdu.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c193537ba95ba34dcf3fc3b4b4780bad1e0f4ff2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae1af959e417638d4f5c78bd3f8933fff75bc4b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("RegalEdu.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RegalEdu.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

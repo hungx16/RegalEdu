@@ -35,6 +35,7 @@ const MainMenuConfig: Array<MenuItem> = [
       { heading: "models.EventAllocationCompany", route: "event-allocation-companies", bootstrapIcon: "bi-building" },
       { heading: "models.EventAllocationProposal", route: "event-allocation-proposals", bootstrapIcon: "bi-file-earmark-text" },
       { heading: "models.EventReport", route: "event-report", bootstrapIcon: "bi-card-list" },
+      { heading: "models.LuckyDraw", route: "lucky-draw", bootstrapIcon: "bi-stars" },
       { heading: "models.Custom", route: "custome", bootstrapIcon: "bi-person-add" },
 
     ],

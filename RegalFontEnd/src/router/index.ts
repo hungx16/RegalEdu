@@ -126,6 +126,17 @@ const routes: Array<RouteRecordRaw> = [
         },
       },
       {
+        path: "/lucky-draw",
+        name: "lucky-draw",
+        component: () =>
+          import("@/views/lucky-draw/LuckyDrawList.vue"),
+        meta: {
+          pageTitle: "LuckyDraw",
+          breadcrumbs: ["Regal Edu", "LuckyDraw"],
+          formName: "lucky-draw",
+        },
+      },
+      {
         path: "/position",
         name: "position",
         component: () =>

@@ -49,6 +49,7 @@ import { RegisterStudyApi } from '@/api/RegisterStudyApi';
 import { ReceiptApi } from '@/api/ReceiptApi';
 import { ClassScoreBoardApi } from '@/api/ClassScoreBoardApi';
 import { CouponIssueApi } from '@/api/CouponIssueApi';
+import { LuckyDrawApi } from '@/api/LuckyDrawApi'; //Hùng
 class ApiFactory {
 
   private _applicationUserApi?: ApplicationUserApi;
@@ -101,8 +102,11 @@ class ApiFactory {
   private _classScoreBoardApi?: ClassScoreBoardApi;
   //khai báo CouponIssueApi
   private _couponIssueApi?: CouponIssueApi; // Placeholder for CouponIssueApi, if needed
+
+  private _luckyDrawApi?: LuckyDrawApi;
+
   /**
-   * Gets the instance of EventApi.
+   * Gets the instance of LuckyDrawApi.
    * If it doesn't exist, it creates a new instance.
    */
   public get eventApi(): EventApi {
@@ -522,5 +526,12 @@ class ApiFactory {
     }
     return this._couponIssueApi;
   }
+  public get luckyDrawApi(): LuckyDrawApi {
+    if (!this._luckyDrawApi) {
+      this._luckyDrawApi = new LuckyDrawApi();
+    }
+    return this._luckyDrawApi;
+  }
+
 }
 export const apiFactory = new ApiFactory();
