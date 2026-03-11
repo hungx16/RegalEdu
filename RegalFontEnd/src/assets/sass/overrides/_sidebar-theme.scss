@@ -1,0 +1,173 @@
+.menu {
+    background-color: var(--menu-bg);
+    padding-top: 1rem;
+
+    .menu-heading {
+        color: var(--menu-heading-color);
+        font-size: 0.875rem;
+        font-weight: 600;
+        padding: 2px 0;
+    }
+
+    .menu-item {
+        margin-bottom: 0 !important;
+
+        .menu-link {
+            display: flex;
+            align-items: center;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border-radius: 8px;
+            padding: 4px 16px;
+            color: var(--menu-color);
+            transition: background-color 0.2s ease;
+
+            .menu-icon {
+                margin-right: 12px;
+                color: var(--menu-icon-color);
+                opacity: 0.8;
+            }
+
+            &:hover {
+                background-color: var(--menu-hover-bg);
+                color: var(--menu-color);
+
+                .menu-icon {
+                    color: var(--menu-color);
+                }
+            }
+
+            &.active,
+            &.router-link-exact-active {
+                background-color: var(--menu-active-bg);
+                color: var(--kt-menu-text-color-active);
+
+                .menu-icon {
+                    color: var(--kt-menu-text-color-active);
+                }
+            }
+        }
+    }
+}
+
+
+.app-sidebar {
+    border-right: 1px solid #e4e6ef !important;
+    background-color: var(--kt-menu-bg) !important;
+
+    .menu-link {
+        color: var(--kt-menu-text-color) !important;
+        border-radius: 8px;
+
+        .menu-icon {
+            color: var(--kt-menu-text-color) !important;
+        }
+
+        &:hover {
+            background-color: var(--kt-menu-hover-bg) !important;
+        }
+
+        &.active,
+        &.router-link-exact-active {
+            background-color: var(--kt-menu-active-bg) !important;
+            color: var(--kt-menu-text-color-active) !important;
+
+            .menu-icon {
+                color: var(--kt-menu-text-color-active) !important;
+            }
+        }
+    }
+
+    .menu-item.menu-accordion.show>.menu-link {
+        color: var(--kt-menu-text-color) !important;
+
+        .menu-title,
+        .menu-icon,
+        .menu-icon i,
+        .menu-arrow {
+            color: var(--kt-menu-text-color) !important;
+        }
+
+        &:hover {
+            background-color: var(--kt-menu-hover-bg) !important;
+        }
+
+        &::after {
+            background-color: var(--kt-menu-hover-bg) !important;
+            color: var(--kt-menu-text-color) !important;
+        }
+    }
+}
+
+
+// Sidebar general
+.app-sidebar {
+    font-size: 0.25rem !important;
+
+    .app-sidebar-logo {
+        border-bottom: 1px solid #e2e8f0 !important;
+    }
+
+    .menu .menu-item .menu-link {
+        padding-left: 0 !important;
+
+        .menu-icon {
+            padding-right: 0 !important;
+            margin-right: 0 !important;
+            font-size: 1rem !important;
+            font-weight: normal !important;
+        }
+
+        .menu-title {
+            font-size: 0.925rem !important;
+            font-weight: normal !important;
+            padding-left: 0 !important;
+            color: var(--kt-menu-text-color) !important;
+        }
+    }
+
+    .menu-link {
+        display: flex;
+        align-items: center;
+        padding: 6px 12px !important;
+        border-radius: 6px;
+        transition: background-color 0.2s ease;
+
+        .menu-icon,
+        .menu-title {
+            line-height: 1.2;
+        }
+    }
+
+    .router-link-exact-active {
+
+        .menu-title,
+        .menu-icon i {
+            color: var(--kt-menu-text-color-active) !important;
+        }
+    }
+}
+
+.app-sidebar .menu .menu-item .menu-link .menu-icon i {
+    font-size: 0.875rem !important;
+}
+
+.app-sidebar .menu .menu-item .menu-link.active .menu-title {
+    color: var(--kt-menu-text-color-active) !important;
+}
+
+.app-sidebar .menu .menu-item .menu-link.active .menu-icon i {
+    color: var(--kt-menu-text-color-active) !important;
+}
+
+.app-sidebar .menu .menu-item .menu-link .menu-icon i {
+    color: var(--kt-menu-text-color) !important;
+}
+
+.app-sidebar {
+    border-right: 1px solid var(--kt-menu-border-color) !important;
+}
+
+.app-sidebar .app-sidebar-logo {
+    border-bottom: 1px solid var(--kt-menu-border-color) !important;
+}

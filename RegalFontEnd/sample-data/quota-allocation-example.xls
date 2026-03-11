@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    table { border-collapse: collapse; margin-bottom: 16px; }
+    th, td { border: 1px solid #888; padding: 4px 8px; }
+    th { background: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <h2>Kịch bản tính chỉ tiêu (mở file này bằng Excel)</h2>
+
+  <table>
+    <tr><th colspan="4">Thiết lập</th></tr>
+    <tr><td>Tháng</td><td>01/2026</td><td>D_std (31 ngày)</td><td>27 (lịch 6-1)</td></tr>
+    <tr><td>Chỉ tiêu doanh số / 1 sale</td><td>10,000,000</td><td>Số sale phân bổ / CN</td><td>3</td></tr>
+    <tr><td>Chi nhánh</td><td>Hà Nội, Đà Nẵng</td><td>Vùng</td><td>Miền Bắc, Miền Trung</td></tr>
+  </table>
+
+  <table>
+    <tr><th colspan="9">Nhân viên chi nhánh Hà Nội</th></tr>
+    <tr>
+      <th>Vai trò</th><th>Từ ngày</th><th>Đến ngày</th><th>D_work</th>
+      <th>Quy tắc</th><th>Quota</th><th>Diễn giải</th>
+    </tr>
+    <tr>
+      <td>Sales (đủ tháng)</td><td>2026-01-01</td><td>2026-01-31</td><td>27</td>
+      <td>T / D_std × D_work</td><td>10,000,000</td><td>10,000,000/27×27</td>
+    </tr>
+    <tr>
+      <td>Sales (đủ tháng)</td><td>2026-01-01</td><td>2026-01-31</td><td>27</td>
+      <td>T / D_std × D_work</td><td>10,000,000</td><td>10,000,000/27×27</td>
+    </tr>
+    <tr>
+      <td>Sales thử việc</td><td>2026-01-11</td><td>2026-01-31</td><td>18</td>
+      <td>0.6 × (T / D_std × D_work) (D_prob=0)</td><td>4,000,000</td>
+      <td>0.6 × (10,000,000/27×18)</td>
+    </tr>
+    <tr>
+      <td>Sales sắp nghỉ</td><td>2026-01-01</td><td>2026-01-13</td><td>12</td>
+      <td>T / D_std × D_work</td><td>4,444,444</td>
+      <td>10,000,000/27×12</td>
+    </tr>
+    <tr>
+      <th colspan="5" style="text-align:right">Tổng quota Sales Hà Nội</th>
+      <th>28,444,444</th>
+      <th>=10,000,000+10,000,000+4,000,000+4,444,444</th>
+    </tr>
+    <tr>
+      <th colspan="5" style="text-align:right">Planned (3×10,000,000)</th>
+      <th>30,000,000</th>
+      <th>Max(planned, actual) = 30,000,000</th>
+    </tr>
+  </table>
+
+  <table>
+    <tr><th colspan="7">Nhân viên chi nhánh Đà Nẵng</th></tr>
+    <tr><th>Vai trò</th><th>Từ ngày</th><th>Đến ngày</th><th>D_work</th><th>Quy tắc</th><th>Quota</th><th>Diễn giải</th></tr>
+    <tr><td>Sales</td><td>2026-01-01</td><td>2026-01-31</td><td>27</td><td>T / D_std × D_work</td><td>10,000,000</td><td>10,000,000/27×27</td></tr>
+    <tr><td>Sales</td><td>2026-01-01</td><td>2026-01-31</td><td>27</td><td>T / D_std × D_work</td><td>10,000,000</td><td>10,000,000/27×27</td></tr>
+    <tr><td>Sales</td><td>2026-01-01</td><td>2026-01-31</td><td>27</td><td>T / D_std × D_work</td><td>10,000,000</td><td>10,000,000/27×27</td></tr>
+    <tr>
+      <th colspan="4" style="text-align:right">Tổng quota Sales Đà Nẵng</th>
+      <th>30,000,000</th><th></th>
+    </tr>
+  </table>
+
+  <table>
+    <tr><th colspan="6">Quản lý chi nhánh (BM)</th></tr>
+    <tr><th>Chi nhánh</th><th>Vùng</th><th>Tổng chỉ tiêu chi nhánh</th><th>D_work BM</th><th>Quota BM</th><th>Công thức</th></tr>
+    <tr><td>Hà Nội</td><td>Miền Bắc</td><td>30,000,000</td><td>27</td><td>30,000,000</td><td>30,000,000/27×27</td></tr>
+    <tr><td>Đà Nẵng</td><td>Miền Trung</td><td>30,000,000</td><td>27</td><td>30,000,000</td><td>30,000,000/27×27</td></tr>
+  </table>
+
+  <table>
+    <tr><th colspan="6">Giám đốc vùng (ASM)</th></tr>
+    <tr><th>Vùng</th><th>Tổng chỉ tiêu vùng</th><th>D_work ASM</th><th>Quota ASM</th><th>Diễn giải</th><th>Ghi chú</th></tr>
+    <tr><td>Miền Bắc</td><td>30,000,000</td><td>27</td><td>30,000,000</td><td>30,000,000/27×27</td><td>1 chi nhánh</td></tr>
+    <tr><td>Miền Trung</td><td>30,000,000</td><td>27</td><td>30,000,000</td><td>30,000,000/27×27</td><td>1 chi nhánh</td></tr>
+  </table>
+
+  <table>
+    <tr><th colspan="5">Tổng hợp</th></tr>
+    <tr><td>Tổng quota Sales Hà Nội</td><td>28,444,444</td><td>Planned Hà Nội</td><td>30,000,000</td><td>Max = 30,000,000</td></tr>
+    <tr><td>Tổng quota Sales Đà Nẵng</td><td>30,000,000</td><td>Planned Đà Nẵng</td><td>30,000,000</td><td>Max = 30,000,000</td></tr>
+    <tr><td>Tổng chỉ tiêu vùng Miền Bắc</td><td>30,000,000</td><td colspan="3">= tổng chi nhánh trực thuộc</td></tr>
+    <tr><td>Tổng chỉ tiêu vùng Miền Trung</td><td>30,000,000</td><td colspan="3">= tổng chi nhánh trực thuộc</td></tr>
+  </table>
+
+  <p><strong>Lưu ý:</strong> D_work dùng lịch 6–1 (INT(N/7)×6 + MIN(6,MOD(N,7))). Các giá trị đã tính sẵn, bạn có thể sửa lại T hoặc ngày bắt đầu/kết thúc rồi nhân công thức tương tự.</p>
+</body>
+</html>

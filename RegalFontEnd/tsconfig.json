@@ -1,0 +1,20 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/types/**/*.d.ts"],
+  "compilerOptions": {
+    "lib": ["es2023"],
+    "ignoreDeprecations": "5.0",
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },   "types": ["vite/client"],   // + để TS hiểu import tài nguyên qua Vite
+    "skipLibCheck": true,       // + tránh lỗi type từ lib ngoài
+    "moduleResolution": "bundler" // + TS5 + Vite khuyên dùng
+  },
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    }
+  ]
+}

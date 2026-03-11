@@ -1,0 +1,90 @@
+{
+  "companyEvent": {
+    "id": "0c0a0000-0000-0000-0000-000000000001",
+    "companyEventCode": "PA-2025-001",
+    "companyEventName": "STEM Experience Day",
+    "eventDate": "2025-01-20",
+    "companyId": "0c0a0000-0000-0000-0000-000000000010",
+    "regionId": "0c0a0000-0000-0000-0000-000000000020",
+    "eventSize": 1,
+    "totalAmount": 15000000
+  },
+  "reportCreatePayload": {
+    "companyEventId": "0c0a0000-0000-0000-0000-000000000001",
+    "eventDate": "2025-01-20",
+    "reportDate": "2025-01-21",
+    "numberStudents": 2,
+    "totalAmount": 6500000,
+    "linkContent": "https://example.com/events/pa-2025-001",
+    "linkFanpage": "https://facebook.com/example",
+    "eventPublications": [
+      {
+        "itemId": "0c0a0000-0000-0000-0000-000000000101",
+        "quantity": 50,
+        "publicationAmount": 50000,
+        "totalAmount": 2500000
+      },
+      {
+        "itemId": "0c0a0000-0000-0000-0000-000000000102",
+        "quantity": 20,
+        "publicationAmount": 30000,
+        "totalAmount": 600000
+      }
+    ],
+    "eventCashes": [
+      {
+        "cashName": "MC fee",
+        "quantity": 1,
+        "amount": 1500000,
+        "totalAmount": 1500000
+      },
+      {
+        "cashName": "Venue setup",
+        "quantity": 1,
+        "amount": 1900000,
+        "totalAmount": 1900000
+      }
+    ],
+    "eventParticipants": [
+      {
+        "studentCode": "STU0001",
+        "isStudent": true,
+        "participantName": "Nguyen Minh Anh",
+        "participantGender": "female",
+        "participantDateOfBirth": "2008-04-15",
+        "participantAddress": "Ha Noi",
+        "participantPhoneNumber": "0912345678",
+        "participantContact": "Parent - Mr. An",
+        "participantEmail": "minhanh@example.com",
+        "participantSchool": "THCS Le Loi",
+        "participantSourceKnown": "Fanpage",
+        "participantJob": "Student",
+        "employeeId": "0c0a0000-0000-0000-0000-000000000201"
+      },
+      {
+        "studentCode": "STU0002",
+        "isStudent": true,
+        "participantName": "Tran Quoc Khanh",
+        "participantGender": "male",
+        "participantDateOfBirth": "2007-11-02",
+        "participantAddress": "Hai Phong",
+        "participantPhoneNumber": "0987654321",
+        "participantContact": "Parent - Ms. Huong",
+        "participantEmail": "quockhanh@example.com",
+        "participantSchool": "THPT Nguyen Trai",
+        "participantSourceKnown": "Referral",
+        "participantJob": "Student",
+        "employeeId": "0c0a0000-0000-0000-0000-000000000202"
+      }
+    ],
+    "attachments": [
+      {
+        "fileName": "event-summary.pdf",
+        "filePath": "/uploads/events/event-summary.pdf",
+        "relativePath": "events/event-summary.pdf",
+        "size": 524288,
+        "contentType": "application/pdf"
+      }
+    ]
+  }
+}

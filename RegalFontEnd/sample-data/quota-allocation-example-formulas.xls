@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- Excel will treat this HTML as a workbook and keep formulas. Editable inputs are blue. -->
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    table { border-collapse: collapse; margin-bottom: 14px; }
+    th, td { border: 1px solid #999; padding: 4px 6px; }
+    th { background: #f5f5f5; }
+  </style>
+</head>
+<body>
+  <h2>K?ch b?n tính ch? tiêu (có công th?c, m? b?ng Excel và ch?nh ô xanh)</h2>
+
+  <table>
+    <tr><th colspan="4">Thông s? chung</th></tr>
+    <tr><td>Tháng</td><td>01/2026</td><td>D_std (31 ngày, l?ch 6-1)</td><td style="background:#e8f4ff">27</td></tr>
+    <tr><td>T (Ch? tiêu / 1 sale)</td><td style="background:#e8f4ff">10000000</td><td>Sales phân b? / CN</td><td style="background:#e8f4ff">3</td></tr>
+    <tr><td>Start tháng</td><td>2026-01-01</td><td>End tháng</td><td>2026-01-31</td></tr>
+  </table>
+
+  <table>
+    <tr><th colspan="7">Chi nhánh Hà N?i (Mi?n B?c)</th></tr>
+    <tr><th>Vai trò</th><th>T? ngày</th><th>Ð?n ngày</th><th>D_prob (tru?c tháng)</th><th>D_work</th><th>Quota</th><th>Di?n gi?i / Công th?c</th></tr>
+    <tr>
+      <td>Sales</td><td style="background:#e8f4ff">2026-01-01</td><td style="background:#e8f4ff">2026-01-31</td><td>0</td>
+      <td>=INT((C8-B8+1)/7)*6+MIN(6,MOD(C8-B8+1,7))</td>
+      <td>=$B$4/$D$4*E8</td>
+      <td>T/D_std×D_work</td>
+    </tr>
+    <tr>
+      <td>Sales</td><td style="background:#e8f4ff">2026-01-01</td><td style="background:#e8f4ff">2026-01-31</td><td>0</td>
+      <td>=INT((C9-B9+1)/7)*6+MIN(6,MOD(C9-B9+1,7))</td>
+      <td>=$B$4/$D$4*E9</td>
+      <td>T/D_std×D_work</td>
+    </tr>
+    <tr>
+      <td>Sales th? vi?c</td><td style="background:#e8f4ff">2026-01-11</td><td style="background:#e8f4ff">2026-01-31</td><td style="background:#e8f4ff">0</td>
+      <td>=INT((C10-B10+1)/7)*6+MIN(6,MOD(C10-B10+1,7))</td>
+      <td>=IF(E10<7,0,0.6*$B$4/$D$4*MAX(0,MIN(E10,26-D10)) + $B$4/$D$4*(E10-MAX(0,MIN(E10,26-D10))))</td>
+      <td>Quy t?c th? vi?c (D_prob nh?p ? c?t D)</td>
+    </tr>
+    <tr>
+      <td>Sales ngh?</td><td style="background:#e8f4ff">2026-01-01</td><td style="background:#e8f4ff">2026-01-13</td><td>0</td>
+      <td>=INT((C11-B11+1)/7)*6+MIN(6,MOD(C11-B11+1,7))</td>
+      <td>=$B$4/$D$4*E11</td>
+      <td>T/D_std×D_work</td>
+    </tr>
+    <tr>
+      <th colspan="4" style="text-align:right">Th?c t? Sales HN</th>
+      <th></th>
+      <th>=SUM(F8:F11)</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th colspan="4" style="text-align:right">Planned HN (SalesAlloc×T)</th>
+      <th></th>
+      <th>=$B$4*$C$4</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th colspan="4" style="text-align:right">T?ng ch? tiêu chi nhánh HN</th>
+      <th></th>
+      <th>=MAX(F12,F13)</th>
+      <th>Max(th?c t?, planned)</th>
+    </tr>
+  </table>
+
+  <table>
+    <tr><th colspan="7">Chi nhánh Ðà N?ng (Mi?n Trung)</th></tr>
+    <tr><th>Vai trò</th><th>T? ngày</th><th>Ð?n ngày</th><th>D_prob (tru?c tháng)</th><th>D_work</th><th>Quota</th><th>Di?n gi?i / Công th?c</th></tr>
+    <tr>
+      <td>Sales</td><td style="background:#e8f4ff">2026-01-01</td><td style="background:#e8f4ff">2026-01-31</td><td>0</td>
+      <td>=INT((C19-B19+1)/7)*6+MIN(6,MOD(C19-B19+1,7))</td>
+      <td>=$B$4/$D$4*E19</td>
+      <td>T/D_std×D_work</td>
+    </tr>
+    <tr>
+      <td>Sales</td><td style="background:#e8f4ff">2026-01-01</td><td style="background:#e8f4ff">2026-01-31</td><td>0</td>
+      <td>=INT((C20-B20+1)/7)*6+MIN(6,MOD(C20-B20+1,7))</td>
+      <td>=$B$4/$D$4*E20</td>
+      <td>T/D_std×D_work</td>
+    </tr>
+    <tr>
+      <td>Sales</td><td style="background:#e8f4ff">2026-01-01</td><td style="background:#e8f4ff">2026-01-31</td><td>0</td>
+      <td>=INT((C21-B21+1)/7)*6+MIN(6,MOD(C21-B21+1,7))</td>
+      <td>=$B$4/$D$4*E21</td>
+      <td>T/D_std×D_work</td>
+    </tr>
+    <tr>
+      <th colspan="4" style="text-align:right">Th?c t? Sales ÐN</th>
+      <th></th>
+      <th>=SUM(F19:F21)</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th colspan="4" style="text-align:right">Planned ÐN (SalesAlloc×T)</th>
+      <th></th>
+      <th>=$B$4*$C$4</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th colspan="4" style="text-align:right">T?ng ch? tiêu chi nhánh ÐN</th>
+      <th></th>
+      <th>=MAX(F23,F24)</th>
+      <th>Max(th?c t?, planned)</th>
+    </tr>
+  </table>
+
+  <table>
+    <tr><th colspan="6">BM (theo ch? tiêu chi nhánh)</th></tr>
+    <tr><th>Chi nhánh</th><th>Vùng</th><th>T?ng ch? tiêu CN</th><th>D_work BM</th><th>Quota BM</th><th>Công th?c</th></tr>
+    <tr><td>Hà N?i</td><td>Mi?n B?c</td><td>=F14</td><td>=$D$4</td><td>=C27/$D$4*D27</td><td>total_CN/D_std×D_work</td></tr>
+    <tr><td>Ðà N?ng</td><td>Mi?n Trung</td><td>=F25</td><td>=$D$4</td><td>=C28/$D$4*D28</td><td>total_CN/D_std×D_work</td></tr>
+  </table>
+
+  <table>
+    <tr><th colspan="5">T?ng ch? tiêu vùng & ASM</th></tr>
+    <tr><th>Vùng</th><th>T?ng ch? tiêu vùng</th><th>D_work ASM</th><th>Quota ASM</th><th>Di?n gi?i</th></tr>
+    <tr><td>Mi?n B?c</td><td>=C27</td><td>=$D$4</td><td>=B31/$D$4*C31</td><td>t?ng CN tr?c thu?c</td></tr>
+    <tr><td>Mi?n Trung</td><td>=C28</td><td>=$D$4</td><td>=B32/$D$4*C32</td><td>t?ng CN tr?c thu?c</td></tr>
+  </table>
+
+  <p><strong>Hu?ng d?n:</strong> M? b?ng Excel, ch?nh các ô xanh (T, SalesAlloc, D_std, ngày b?t d?u/k?t thúc, D_prob), các công th?c t? c?p nh?t. D_work dùng l?ch 6–1: INT(N/7)*6 + MIN(6,MOD(N,7)).</p>
+</body>
+</html>
