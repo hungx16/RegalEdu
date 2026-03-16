@@ -6000,11 +6000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\RegalEdu.Application.csproj",
+      "projectUniqueName": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\RegalEdu.Application.csproj",
       "projectName": "RegalEdu.Application",
-      "projectPath": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\RegalEdu.Application.csproj",
+      "projectPath": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\RegalEdu.Application.csproj",
       "packagesPath": "C:\\Users\\dthun\\.nuget\\packages\\",
-      "outputPath": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\obj\\",
+      "outputPath": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6023,13 +6023,14 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\RegalEdu.Domain.csproj": {
-              "projectPath": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\RegalEdu.Domain.csproj"
+            "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\RegalEdu.Domain.csproj": {
+              "projectPath": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\RegalEdu.Domain.csproj"
             },
-            "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Shared\\RegalEdu.Shared.csproj": {
-              "projectPath": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Shared\\RegalEdu.Shared.csproj"
+            "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Shared\\RegalEdu.Shared.csproj": {
+              "projectPath": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Shared\\RegalEdu.Shared.csproj"
             }
           }
         }
@@ -6048,6 +6049,7 @@
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "AutoMapper": {
@@ -6123,7 +6125,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

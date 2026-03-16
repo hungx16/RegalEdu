@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\RegalBackEnd",
+    "\\RegalBackEnd\\BackEnd",
+    "\\RegalBackEnd\\BackEnd\\RegalEdu.Domain",
+    "\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\Models",
+    "\\RegalFontEnd",
+    "\\RegalFontEnd\\src",
+    "\\RegalFontEnd\\src\\layouts",
+    "\\RegalFontEnd\\src\\layouts\\default-layout",
+    "\\RegalFontEnd\\src\\layouts\\default-layout\\config"
+  ],
+  "SelectedNode": "\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\Models\\LuckyDrawModel.cs",
+  "PreviewInSolutionExplorer": false
+}

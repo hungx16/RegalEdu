@@ -8,3 +8,11 @@
 [2026-03-12 00:00:03 INF] JobUsableNoData
 [2026-03-12 00:00:03 INF] JobTriggerUsableDone
 [2026-03-12 00:00:03 INF] JobDone
+[2026-03-12 01:45:30 INF] Background worker service is starting.
+[2026-03-12 01:45:54 INF] Request: GetNotificationsQuery (208 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 01:46:04 INF] Request: GetAllItemsQuery (24 ms) {"$type":"GetAllItemsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/item/GetAllItems
+[2026-03-12 01:46:10 INF] Request: GetAllCompaniesQuery (171 ms) {"$type":"GetAllCompaniesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/company/GetAllCompanies
+[2026-03-12 01:46:10 INF] Request: GetAllEmployeesQuery (240 ms) {"$type":"GetAllEmployeesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/GetAllEmployees
+[2026-03-12 01:46:10 INF] Request: GetAllCustomQuery (444 ms) {"$type":"GetAllCustomQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/student/GetAllCustoms
+[2026-03-12 01:55:30 INF] Request: GetAllReceiptsQuery (307 ms) {"$type":"GetAllReceiptsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Receipt/GetAllReceipts
+[2026-03-12 02:02:17 INF] Request: GetNotificationsQuery (21 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications

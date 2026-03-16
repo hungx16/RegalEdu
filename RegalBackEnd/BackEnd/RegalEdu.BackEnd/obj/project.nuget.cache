@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jPd2/itSdA=",
+  "dgSpecHash": "eq81NmtdAF8=",
   "success": true,
-  "projectFilePath": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\RegalEdu.Api.csproj",
+  "projectFilePath": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\RegalEdu.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dthun\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\dthun\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

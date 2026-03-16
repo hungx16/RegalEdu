@@ -933,11 +933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\RegalEdu.Domain.csproj",
+      "projectUniqueName": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\RegalEdu.Domain.csproj",
       "projectName": "RegalEdu.Domain",
-      "projectPath": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\RegalEdu.Domain.csproj",
+      "projectPath": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\RegalEdu.Domain.csproj",
       "packagesPath": "C:\\Users\\dthun\\.nuget\\packages\\",
-      "outputPath": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\obj\\",
+      "outputPath": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -956,6 +956,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -974,6 +975,7 @@
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "FluentValidation.AspNetCore": {
@@ -1001,7 +1003,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

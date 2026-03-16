@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z+LxTxRvbJw=",
+  "dgSpecHash": "c4VpNY7ZdP0=",
   "success": true,
-  "projectFilePath": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\RegalEdu.Domain.csproj",
+  "projectFilePath": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.Domain\\RegalEdu.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dthun\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\dthun\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
