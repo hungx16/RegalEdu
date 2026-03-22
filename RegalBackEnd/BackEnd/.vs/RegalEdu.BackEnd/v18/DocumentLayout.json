@@ -1,10 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\",
+  "WorkspaceRootPath": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\regaledu\\regalbackend\\backend\\regaledu.backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\controllers\\customerrewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\controllers\\customerrewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\controllers\\luckydrawcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\controllers\\luckydrawcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\luckydraw\\commands\\deleteluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\luckydraw\\commands\\deleteluckydrawcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.application\\regaledu.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E1374C0-0B81-C71D-6A9D-5A60D4492AD2}|RegalEdu.Application\\RegalEdu.Application.csproj|solutionrelative:regaledu.application\\regaledu.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\regaledu.backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\regaledu.backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\appsettings.testing.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\appsettings.testing.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|c:\\hung\\git_repo\\regalbackend\\backend\\regaledu.backend\\regaledu.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4C057CA0-24C3-4E25-A5C2-CAC718AA46CE}|RegalEdu.BackEnd\\RegalEdu.Api.csproj|solutionrelative:regaledu.backend\\regaledu.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,28 +49,134 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 213,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerRewardController.cs",
+              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
+              "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
+              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
+              "RelativeToolTip": "RegalEdu.BackEnd\\Controllers\\CustomerRewardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T17:38:34.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "DeleteLuckyDrawCommand.cs",
+              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
+              "RelativeDocumentMoniker": "RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
+              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
+              "RelativeToolTip": "RegalEdu.Application\\LuckyDraw\\Commands\\DeleteLuckyDrawCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T17:34:08.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegalEdu.Application.csproj",
+              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\RegalEdu.Application.csproj",
+              "RelativeDocumentMoniker": "RegalEdu.Application\\RegalEdu.Application.csproj",
+              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.Application\\RegalEdu.Application.csproj",
+              "RelativeToolTip": "RegalEdu.Application\\RegalEdu.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-21T17:34:02.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LuckyDrawController.cs",
+              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LuckyDrawController.cs",
+              "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Controllers\\LuckyDrawController.cs",
+              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Controllers\\LuckyDrawController.cs",
+              "RelativeToolTip": "RegalEdu.BackEnd\\Controllers\\LuckyDrawController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T17:32:50.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RegalEdu.BackEnd\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RegalEdu.BackEnd\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T15:58:48.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegalEdu.BackEnd.http",
+              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\RegalEdu.BackEnd.http",
+              "RelativeDocumentMoniker": "RegalEdu.BackEnd\\RegalEdu.BackEnd.http",
+              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\RegalEdu.BackEnd.http",
+              "RelativeToolTip": "RegalEdu.BackEnd\\RegalEdu.BackEnd.http",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-11T15:50:15.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\appsettings.json",
+              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\appsettings.json",
               "RelativeDocumentMoniker": "RegalEdu.BackEnd\\appsettings.json",
-              "ToolTip": "C:\\Hung\\RegalEdu\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\appsettings.json",
+              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\appsettings.json",
               "RelativeToolTip": "RegalEdu.BackEnd\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-11T16:53:26.48Z"
+              "WhenOpened": "2026-03-11T15:50:40.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Testing.json",
+              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\appsettings.Testing.json",
+              "RelativeDocumentMoniker": "RegalEdu.BackEnd\\appsettings.Testing.json",
+              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\appsettings.Testing.json",
+              "RelativeToolTip": "RegalEdu.BackEnd\\appsettings.Testing.json",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwBoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T16:30:00.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "RegalEdu.BackEnd\\appsettings.Development.json",
+              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\appsettings.Development.json",
+              "RelativeToolTip": "RegalEdu.BackEnd\\appsettings.Development.json",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwDcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T16:29:40.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegalEdu.Api.csproj",
+              "DocumentMoniker": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\RegalEdu.Api.csproj",
+              "RelativeDocumentMoniker": "RegalEdu.BackEnd\\RegalEdu.Api.csproj",
+              "ToolTip": "C:\\Hung\\git_repo\\RegalBackEnd\\BackEnd\\RegalEdu.BackEnd\\RegalEdu.Api.csproj",
+              "RelativeToolTip": "RegalEdu.BackEnd\\RegalEdu.Api.csproj",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-11T15:50:30.129Z"
             }
           ]
         }

@@ -108,7 +108,12 @@ export class LuckyDrawApi extends ApiClient {
     }
 
     public async deleteLuckyDraw(id: string): Promise<Result<any>> {
-        return await this.delete<Result<any>>(`/${this.luckyDrawController}/DeleteLuckyDraw`, { data: id });
+        // Backend expects GUID in the request body ([FromBody] Guid id).
+        // Send a JSON string with proper Content-Type to avoid 415 Unsupported Media Type.
+        return await this.delete<Result<any>>(
+            `/${this.luckyDrawController}/DeleteLuckyDraw`,
+            { data: JSON.stringify(id), headers: { 'Content-Type': 'application/json' } }
+        );
     }
 
     public async getPagedCustomerRewards(query: CustomerRewardQuery): Promise<Result<CustomerRewardPagedResult>> {

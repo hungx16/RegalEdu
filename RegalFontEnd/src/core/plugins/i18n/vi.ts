@@ -1139,6 +1139,13 @@ export default {
     pageDesc: 'Quản lý các chương trình Lucky Draw và theo dõi người trúng giải',
     listTitle: 'Danh sách chương trình Lucky Draw',
     listDesc: 'Danh sách chương trình Lucky Draw từ hệ thống',
+    addTitle: 'Thêm chương trình',
+    editTitle: 'Cập nhật chương trình Lucky Draw',
+    detailTitle: 'Chi tiết chương trình Lucky Draw',
+    delete: 'Xóa chương trình',
+    saveSuccess: 'Lưu chương trình Lucky Draw thành công!',
+    createSuccess: 'Tạo chương trình Lucky Draw thành công!',
+    updateSuccess: 'Cập nhật chương trình Lucky Draw thành công!',
     name: 'Tên chương trình',
     branch: 'Chi nhánh',
     region: 'Vùng',
@@ -1150,7 +1157,6 @@ export default {
     activePrograms: 'Đang xử lý',
     completedPrograms: 'Hoàn thành',
   },
-
   paymentStatus: {
     paid: "Đã thanh toán",
     unpaid: "Chưa thanh toán",

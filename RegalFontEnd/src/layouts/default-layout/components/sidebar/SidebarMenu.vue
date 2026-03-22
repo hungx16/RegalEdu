@@ -230,9 +230,7 @@ export default defineComponent({
 
     onBeforeMount(async () => {
       if (!permissionStore.getListMenuAccept?.length) {
-          await permissionStore.loadResource();
-        console.log('menuAccept', permissionStore.getListMenuAccept);
-        console.log('filteredMenu', filteredMenu.value);
+        await permissionStore.loadResource();
       }
       isReady.value = true;
     });

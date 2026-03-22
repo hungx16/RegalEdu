@@ -1,18 +1,73 @@
-[2026-03-12 00:00:03 INF] JobLockStart
-[2026-03-12 00:00:03 INF] JobCompleteStart
-[2026-03-12 00:00:03 INF] JobStart
-[2026-03-12 00:00:03 INF] JobCompleteDone
-[2026-03-12 00:00:03 INF] JobLockDone
-[2026-03-12 00:00:03 INF] JobTriggerUsableStart
-[2026-03-12 00:00:03 INF] JobUsableStart
-[2026-03-12 00:00:03 INF] JobUsableNoData
-[2026-03-12 00:00:03 INF] JobTriggerUsableDone
-[2026-03-12 00:00:03 INF] JobDone
-[2026-03-12 01:45:30 INF] Background worker service is starting.
-[2026-03-12 01:45:54 INF] Request: GetNotificationsQuery (208 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
-[2026-03-12 01:46:04 INF] Request: GetAllItemsQuery (24 ms) {"$type":"GetAllItemsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/item/GetAllItems
-[2026-03-12 01:46:10 INF] Request: GetAllCompaniesQuery (171 ms) {"$type":"GetAllCompaniesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/company/GetAllCompanies
-[2026-03-12 01:46:10 INF] Request: GetAllEmployeesQuery (240 ms) {"$type":"GetAllEmployeesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/GetAllEmployees
-[2026-03-12 01:46:10 INF] Request: GetAllCustomQuery (444 ms) {"$type":"GetAllCustomQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/student/GetAllCustoms
-[2026-03-12 01:55:30 INF] Request: GetAllReceiptsQuery (307 ms) {"$type":"GetAllReceiptsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Receipt/GetAllReceipts
-[2026-03-12 02:02:17 INF] Request: GetNotificationsQuery (21 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 00:05:33 INF] Background worker service is starting.
+[2026-03-12 00:35:54 INF] User [admin@regaledu.vn] logged in the system.
+[2026-03-12 00:35:55 WRN] Long Running Request: GetUserLoginResultQuery (1347 ms) {"UserName":"admin@regaledu.vn","Password":"Admin@123","RememberMe":true,"$type":"GetUserLoginResultQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Auth/login
+[2026-03-12 00:44:20 INF] Background worker service is starting.
+[2026-03-12 00:44:35 INF] Request: DeleteRefreshTokenCommand (2 ms) {"UserName":null,"$type":"DeleteRefreshTokenCommand"} | User: - | IP: 127.0.0.1 | Path: /api/RegalEduManagement/auth/logout
+[2026-03-12 00:44:36 INF] User [admin@regaledu.vn] logged in the system.
+[2026-03-12 00:44:36 WRN] Long Running Request: GetUserLoginResultQuery (1132 ms) {"UserName":"admin@regaledu.vn","Password":"Admin@123","RememberMe":true,"$type":"GetUserLoginResultQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/auth/login
+[2026-03-12 00:44:39 INF] Request: GetNotificationsQuery (76 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 00:46:29 INF] Request: GetNotificationsQuery (13 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 00:46:38 INF] Request: DeleteRefreshTokenCommand (0 ms) {"UserName":null,"$type":"DeleteRefreshTokenCommand"} | User: - | IP: 127.0.0.1 | Path: /api/RegalEduManagement/auth/logout
+[2026-03-12 00:46:38 INF] User [admin@regaledu.vn] logged in the system.
+[2026-03-12 00:46:38 INF] Request: GetUserLoginResultQuery (107 ms) {"UserName":"admin@regaledu.vn","Password":"Admin@123","RememberMe":true,"$type":"GetUserLoginResultQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/auth/login
+[2026-03-12 00:46:40 INF] Request: GetNotificationsQuery (6 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 00:48:26 INF] Request: GetNotificationsQuery (7 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 00:58:03 INF] Request: GetNotificationsQuery (7 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 00:58:22 INF] Request: GetAllCompaniesQuery (206 ms) {"$type":"GetAllCompaniesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/company/GetAllCompanies
+[2026-03-12 00:58:22 INF] Request: GetAllEmployeesQuery (255 ms) {"$type":"GetAllEmployeesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/GetAllEmployees
+[2026-03-12 00:58:23 INF] Request: GetAllCustomQuery (385 ms) {"$type":"GetAllCustomQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/student/GetAllCustoms
+[2026-03-12 01:00:47 INF] Request: GetAllCustomQuery (28 ms) {"$type":"GetAllCustomQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/student/GetAllCustoms
+[2026-03-12 01:00:47 INF] Request: GetNotificationsQuery (36 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 01:00:47 INF] Request: GetAllCompaniesQuery (41 ms) {"$type":"GetAllCompaniesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/company/GetAllCompanies
+[2026-03-12 01:00:47 INF] Request: GetAllEmployeesQuery (52 ms) {"$type":"GetAllEmployeesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/GetAllEmployees
+[2026-03-12 01:00:50 INF] Request: GetAllEventsQuery (20 ms) {"$type":"GetAllEventsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/event/GetAllEvents
+[2026-03-12 01:00:52 INF] Request: GetAllItemsQuery (17 ms) {"$type":"GetAllItemsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/item/GetAllItems
+[2026-03-12 01:00:54 INF] Request: GetProvincesQuery (17 ms) {"$type":"GetProvincesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/common/Provinces
+[2026-03-12 01:00:54 INF] Request: GetAllPartnerTypesQuery (39 ms) {"$type":"GetAllPartnerTypesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/PartnerType/GetAllPartnerTypes
+[2026-03-12 01:00:54 INF] Request: GetProvincesQuery (2 ms) {"$type":"GetProvincesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/common/Provinces
+[2026-03-12 01:00:54 INF] Request: GetAllPartnerTypesQuery (2 ms) {"$type":"GetAllPartnerTypesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/PartnerType/GetAllPartnerTypes
+[2026-03-12 01:01:07 INF] Request: GetAllReceiptsQuery (218 ms) {"$type":"GetAllReceiptsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Receipt/GetAllReceipts
+[2026-03-12 01:01:10 INF] Request: GetAllEmployeesQuery (22 ms) {"$type":"GetAllEmployeesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/GetAllEmployees
+[2026-03-12 01:01:10 INF] Request: IsRegionManagerQuery (2 ms) {"$type":"IsRegionManagerQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/IsRegionManager
+[2026-03-12 01:01:31 INF] Request: GetAllLearningRoadMapsQuery (131 ms) {"$type":"GetAllLearningRoadMapsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/learningRoadMap/GetAllLearningRoadMaps
+[2026-03-12 01:01:40 INF] Request: GetAllAccountGroupsQuery (12 ms) {"$type":"GetAllAccountGroupsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/AccountGroup/GetAllAccountGroups
+[2026-03-12 01:01:42 INF] Request: GetAccountGroupsQuery (24 ms) {"AccountGroupQuery":{"Page":1,"PageSize":10,"CreatedAt":null,"Name":null,"Enable":null,"UseDefault":null,"$type":"AccountGroupQuery"},"$type":"GetAccountGroupsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/AccountGroup/GetAccountGroups
+[2026-03-12 01:01:42 INF] Request: GetAllApplicationUsersQuery (70 ms) {"$type":"GetAllApplicationUsersQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/user/GetAllApplicationUsers
+[2026-03-12 01:08:01 INF] Request: GetAllAccountGroupsQuery (4 ms) {"$type":"GetAllAccountGroupsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/AccountGroup/GetAllAccountGroups
+[2026-03-12 01:08:01 INF] Request: GetNotificationsQuery (27 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 01:10:07 INF] Request: GetNotificationsQuery (6 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 01:24:00 INF] Request: GetNotificationsQuery (8 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 01:24:09 INF] Request: DeleteRefreshTokenCommand (0 ms) {"UserName":null,"$type":"DeleteRefreshTokenCommand"} | User: - | IP: 127.0.0.1 | Path: /api/RegalEduManagement/auth/logout
+[2026-03-12 01:24:09 INF] User [admin@regaledu.vn] logged in the system.
+[2026-03-12 01:24:09 INF] Request: GetUserLoginResultQuery (126 ms) {"UserName":"admin@regaledu.vn","Password":"Admin@123","RememberMe":true,"$type":"GetUserLoginResultQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/auth/login
+[2026-03-12 01:24:11 INF] Request: GetNotificationsQuery (8 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 01:24:29 INF] Request: GetAllReceiptsQuery (58 ms) {"$type":"GetAllReceiptsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Receipt/GetAllReceipts
+[2026-03-12 01:24:30 INF] Request: GetAllAccountGroupsQuery (3 ms) {"$type":"GetAllAccountGroupsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/AccountGroup/GetAllAccountGroups
+[2026-03-12 01:24:34 INF] Request: GetAllEmployeesQuery (17 ms) {"$type":"GetAllEmployeesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/GetAllEmployees
+[2026-03-12 01:24:34 INF] Request: IsRegionManagerQuery (0 ms) {"$type":"IsRegionManagerQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/IsRegionManager
+[2026-03-12 01:24:46 INF] Request: GetNotificationsQuery (8 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 01:25:26 INF] Request: GetNotificationsQuery (7 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 01:25:33 INF] Request: DeleteRefreshTokenCommand (0 ms) {"UserName":null,"$type":"DeleteRefreshTokenCommand"} | User: - | IP: 127.0.0.1 | Path: /api/RegalEduManagement/auth/logout
+[2026-03-12 01:25:33 INF] User [admin@regaledu.vn] logged in the system.
+[2026-03-12 01:25:33 INF] Request: GetUserLoginResultQuery (101 ms) {"UserName":"admin@regaledu.vn","Password":"Admin@123","RememberMe":true,"$type":"GetUserLoginResultQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/auth/login
+[2026-03-12 01:25:34 INF] Request: GetNotificationsQuery (6 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 01:25:38 INF] Request: GetAllEmployeesQuery (17 ms) {"$type":"GetAllEmployeesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/GetAllEmployees
+[2026-03-12 01:25:38 INF] Request: IsRegionManagerQuery (0 ms) {"$type":"IsRegionManagerQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/IsRegionManager
+[2026-03-12 01:25:41 INF] Request: GetProvincesQuery (2 ms) {"$type":"GetProvincesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/common/Provinces
+[2026-03-12 01:25:41 INF] Request: GetAllPartnerTypesQuery (8 ms) {"$type":"GetAllPartnerTypesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/PartnerType/GetAllPartnerTypes
+[2026-03-12 01:25:41 INF] Request: GetProvincesQuery (2 ms) {"$type":"GetProvincesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/common/Provinces
+[2026-03-12 01:25:41 INF] Request: GetAllPartnerTypesQuery (2 ms) {"$type":"GetAllPartnerTypesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/PartnerType/GetAllPartnerTypes
+[2026-03-12 01:25:42 INF] Request: GetAllEmployeesQuery (28 ms) {"$type":"GetAllEmployeesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/employee/GetAllEmployees
+[2026-03-12 01:25:42 INF] Request: GetAllCompaniesQuery (34 ms) {"$type":"GetAllCompaniesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/company/GetAllCompanies
+[2026-03-12 01:25:42 INF] Request: GetAllCustomQuery (42 ms) {"$type":"GetAllCustomQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/student/GetAllCustoms
+[2026-03-12 01:25:45 INF] Request: GetAllEventsQuery (4 ms) {"$type":"GetAllEventsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/event/GetAllEvents
+[2026-03-12 01:30:05 INF] Request: GetNotificationsQuery (7 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 23:06:29 INF] Background worker service is starting.
+[2026-03-12 23:06:50 INF] Request: GetNotificationsQuery (148 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 23:07:03 INF] Request: GetProvincesQuery (35 ms) {"$type":"GetProvincesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/common/Provinces
+[2026-03-12 23:07:03 INF] Request: GetAllPartnerTypesQuery (43 ms) {"$type":"GetAllPartnerTypesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/PartnerType/GetAllPartnerTypes
+[2026-03-12 23:07:03 INF] Request: GetAllPartnerTypesQuery (7 ms) {"$type":"GetAllPartnerTypesQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/PartnerType/GetAllPartnerTypes
+[2026-03-12 23:07:07 INF] Request: GetAllReceiptsQuery (304 ms) {"$type":"GetAllReceiptsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Receipt/GetAllReceipts
+[2026-03-12 23:07:11 INF] Request: GetPagedLuckyDrawsQuery (32 ms) {"Query":{"Name":null,"Branch":null,"Region":null,"Page":1,"PageSize":30,"$type":"LuckyDrawQuery"},"$type":"GetPagedLuckyDrawsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/LuckyDraw/GetPagedLuckyDraws
+[2026-03-12 23:08:56 INF] Request: GetNotificationsQuery (11 ms) {"UserId":"980a03f3-2de2-4ed2-af65-08de7995940a","Page":1,"PageSize":10,"$type":"GetNotificationsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Notification/GetNotifications
+[2026-03-12 23:08:56 INF] Request: GetPagedLuckyDrawsQuery (10 ms) {"Query":{"Name":null,"Branch":null,"Region":null,"Page":1,"PageSize":30,"$type":"LuckyDrawQuery"},"$type":"GetPagedLuckyDrawsQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/LuckyDraw/GetPagedLuckyDraws

@@ -25,8 +25,8 @@ import { initializeComponents } from "@/core/plugins/keenthemes";
 import BaseToast from "@/components/toast/BaseToast.vue";
 import ConfirmDialog from "@/components/toast/ConfirmDialog.vue";
 import { useLocaleStore } from "./stores/localeStore";
-import en from "element-plus/dist/locale/en.mjs";
-import vi from "element-plus/dist/locale/vi.mjs";
+import en from 'element-plus/dist/locale/en.mjs'
+import vi from 'element-plus/dist/locale/vi.mjs'
 import { useAuthStore } from "./stores/useAuthStore";
 import { userPermissionStore } from "./stores/permissionStore";
 import notificationHubService from "@/services/NotificationHubService";
@@ -41,18 +41,19 @@ export default defineComponent({
     const configStore = useConfigStore();
     const themeStore = useThemeStore();
     const bodyStore = useBodyStore();
-    const authStore = useAuthStore();
-    const permissionStore = userPermissionStore();
-    const localeStore = useLocaleStore();
+    const authStore = useAuthStore()
+    const permissionStore = userPermissionStore()
+    const localeStore = useLocaleStore()
     const currentElLocale = computed(() => {
-      return localeStore.currentLocale === "vi" ? vi : en;
-    });
+      return localeStore.currentLocale === 'vi' ? vi : en
+    })
     onBeforeMount(async () => {
+
       if (authStore.token && !permissionStore.hasLoaded) {
         try {
-          await permissionStore.loadResource();
+          await permissionStore.loadResource()
         } catch (err) {
-          console.error("Lỗi load quyền", err);
+          console.error('Lỗi load quyền', err)
         }
       }
       /**
@@ -72,18 +73,18 @@ export default defineComponent({
       (token) => {
         if (token) {
           notificationHubService.connect(token).catch((error) => {
-            console.error("[NotificationHub] connect error", error);
-          });
+            console.error('[NotificationHub] connect error', error)
+          })
         } else {
-          notificationHubService.disconnect();
+          notificationHubService.disconnect()
         }
       },
-      { immediate: true },
-    );
+      { immediate: true }
+    )
 
     onBeforeUnmount(() => {
-      notificationHubService.disconnect();
-    });
+      notificationHubService.disconnect()
+    })
 
     onMounted(() => {
       nextTick(() => {
@@ -94,7 +95,7 @@ export default defineComponent({
     });
 
     return {
-      currentElLocale,
+      currentElLocale
     };
   },
 });

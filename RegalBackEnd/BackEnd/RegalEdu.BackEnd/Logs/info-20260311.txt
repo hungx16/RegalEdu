@@ -1,1 +1,22 @@
-[2026-03-11 23:50:45 INF] Background worker service is starting.
+[2026-03-11 22:49:53 INF] Background worker service is starting.
+[2026-03-11 22:49:54 INF] JobLockStart
+[2026-03-11 22:49:54 INF] JobCompleteStart
+[2026-03-11 22:49:54 INF] JobStart
+[2026-03-11 22:49:55 INF] JobCompleteDone
+[2026-03-11 22:49:55 INF] JobLockDone
+[2026-03-11 22:49:55 INF] JobTriggerUsableStart
+[2026-03-11 22:49:55 INF] JobUsableStart
+[2026-03-11 22:49:55 INF] JobDone
+[2026-03-11 22:49:55 INF] JobUsableNoData
+[2026-03-11 22:49:55 INF] JobTriggerUsableDone
+[2026-03-11 22:57:18 INF] Background worker service is starting.
+[2026-03-11 22:59:47 INF] Background worker service is starting.
+[2026-03-11 23:23:48 INF] Background worker service is starting.
+[2026-03-11 23:25:22 INF] Background worker service is starting.
+[2026-03-11 23:27:48 INF] Background worker service is starting.
+[2026-03-11 23:30:58 INF] Background worker service is starting.
+[2026-03-11 23:31:49 INF] Background worker service is starting.
+[2026-03-11 23:36:28 INF] Request: GetUserLoginResultQuery (188 ms) {"UserName":"admin@regaledu.vn","Password":"Admin123","RememberMe":true,"$type":"GetUserLoginResultQuery"} | User: - | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Auth/login
+[2026-03-11 23:36:48 INF] User [admin@regaledu.vn] logged in the system.
+[2026-03-11 23:36:49 WRN] Long Running Request: GetUserLoginResultQuery (1123 ms) {"UserName":"admin@regaledu.vn","Password":"Admin@123","RememberMe":true,"$type":"GetUserLoginResultQuery"} | User: -admin@regaledu.vn | IP: 127.0.0.1 | Path: /api/RegalEduManagement/Auth/login
+[2026-03-11 23:44:07 INF] Background worker service is starting.

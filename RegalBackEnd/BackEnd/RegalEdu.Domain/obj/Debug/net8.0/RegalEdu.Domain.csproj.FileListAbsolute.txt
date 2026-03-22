@@ -11,16 +11,3 @@ C:\Hung\git_repo\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\RegalEdu.
 C:\Hung\git_repo\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\refint\RegalEdu.Domain.dll
 C:\Hung\git_repo\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\RegalEdu.Domain.pdb
 C:\Hung\git_repo\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\ref\RegalEdu.Domain.dll
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\bin\Debug\net8.0\RegalEdu.Domain.deps.json
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\bin\Debug\net8.0\RegalEdu.Domain.dll
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\bin\Debug\net8.0\RegalEdu.Domain.pdb
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\RegalEdu.Domain.csproj.AssemblyReference.cache
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\RegalEdu.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\RegalEdu.Domain.AssemblyInfoInputs.cache
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\RegalEdu.Domain.AssemblyInfo.cs
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\RegalEdu.Domain.csproj.CoreCompileInputs.cache
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\RegalEdu.Domain.sourcelink.json
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\RegalEdu.Domain.dll
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\refint\RegalEdu.Domain.dll
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\RegalEdu.Domain.pdb
-C:\Hung\RegalEdu\RegalBackEnd\BackEnd\RegalEdu.Domain\obj\Debug\net8.0\ref\RegalEdu.Domain.dll
